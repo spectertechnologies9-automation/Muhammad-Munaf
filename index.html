@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Munaf — Kannada Poet &amp; Author</title>
+<meta name="description" content="Muhammad Munaf (M.D. Munaf) — Kannada poet and author from Chitradurga, 34 years with BEML in service of India's defence, and a lifelong worker for Kannada literature, language and community.">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Muhammad Munaf — Kannada Poet &amp; Author">
+<meta property="og:description" content="Kannada poet and author, 34 years with BEML in service of India's defence, and a lifelong worker for Kannada language and culture.">
+<meta property="og:image" content="images/munaf-portrait.jpg">
+<meta name="theme-color" content="#F7F4ED">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%23542B32'/%3E%3Crect x='10' y='46' width='22' height='4' fill='%23E9B92F'/%3E%3Crect x='32' y='46' width='22' height='4' fill='%23C8202F'/%3E%3Ctext x='32' y='38' font-family='Georgia,serif' font-size='30' fill='%23F7F4ED' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+
+<!-- Fonts are a progressive enhancement; the CSS stacks below fall back to system fonts. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;600&family=Noto+Sans+Kannada:wght@400;600&family=Noto+Serif+Kannada:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+/* =========================================================
+   1. TOKENS
+   ========================================================= */
+:root{
+  --ivory:#F7F4ED;
+  --ivory-deep:#EFE9DC;
+  --burgundy:#542B32;
+  --burgundy-soft:#6E3A43;
+  --ink:#292824;
+  --ink-soft:#55524A;
+  --gold:#B59A70;
+  --line:#E5E0D6;
+  --ka-yellow:#E9B92F;
+  --ka-red:#C8202F;
+
+  --serif:"Cormorant Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans:"Source Sans 3", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --kn-sans:"Noto Sans Kannada", "Tunga", "Kedage", "Nirmala UI", sans-serif;
+  --kn-serif:"Noto Serif Kannada", "Noto Sans Kannada", "Tunga", "Nirmala UI", serif;
+
+  --measure:66ch;
+  --gutter:clamp(16px, 4vw, 40px);
+  --header-h:68px;
+}
+
+/* =========================================================
+   2. BASE
+   ========================================================= */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 12px);-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--ivory);color:var(--ink);
+  font-family:var(--sans);font-size:clamp(16.5px, 0.35vw + 15.5px, 18.5px);line-height:1.68;
+  text-rendering:optimizeLegibility;overflow-x:hidden;
+}
+html[lang="kn"] body{font-family:var(--kn-sans), var(--sans);line-height:1.85;font-size:clamp(16px, 0.3vw + 15px, 17.5px)}
+[lang="kn"]{font-family:var(--kn-sans), var(--sans)}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--burgundy);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--burgundy-soft)}
+:focus-visible{outline:3px solid var(--burgundy);outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--serif);color:var(--burgundy);font-weight:600;line-height:1.15;margin:0}
+html[lang="kn"] h1,html[lang="kn"] h2,html[lang="kn"] h3{font-family:var(--kn-serif), var(--serif);line-height:1.45;font-weight:600}
+p{margin:0 0 1.1em}
+.visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-60px;background:var(--burgundy);color:var(--ivory);padding:10px 16px;z-index:100;border-radius:2px}
+.skip:focus{top:10px;color:var(--ivory)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 var(--gutter)}
+.en-only{}
+html[lang="kn"] .en-only{display:none!important}
+
+/* =========================================================
+   3. KARNATAKA MARK — an unofficial, decorative red-and-yellow band
+   ========================================================= */
+.ka-mark{display:inline-flex;align-items:center;gap:.55em;font-size:.82rem;color:var(--ink-soft);letter-spacing:.02em}
+.ka-mark .bands{display:inline-flex;flex-direction:column;width:22px;height:14px;border-radius:1px;overflow:hidden;box-shadow:0 0 0 1px rgba(41,40,36,.12)}
+.ka-mark .bands i{flex:1;display:block}
+.ka-mark .bands i:first-child{background:var(--ka-yellow)}
+.ka-mark .bands i:last-child{background:var(--ka-red)}
+
+/* =========================================================
+   4. HEADER
+   ========================================================= */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(247,244,237,.94);backdrop-filter:saturate(1.2) blur(6px);-webkit-backdrop-filter:saturate(1.2) blur(6px);border-bottom:1px solid transparent;transition:border-color .3s}
+.site-header.scrolled{border-bottom-color:var(--line)}
+.header-inner{display:flex;align-items:center;gap:20px;min-height:var(--header-h)}
+.brand{display:flex;flex-direction:column;text-decoration:none;color:var(--ink);line-height:1.2;margin-right:auto;min-width:0}
+.brand-name{font-family:var(--serif);font-size:1.45rem;font-weight:600;color:var(--burgundy);white-space:nowrap}
+html[lang="kn"] .brand-name{font-family:var(--kn-serif), var(--serif);font-size:1.15rem}
+.brand-desc{font-size:.8rem;color:var(--ink-soft);letter-spacing:.04em;white-space:nowrap}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px}
+.nav a{display:block;padding:8px 10px;font-size:.92rem;color:var(--ink);text-decoration:none;border-radius:2px}
+.nav a:hover{color:var(--burgundy);background:var(--ivory-deep)}
+.nav a[aria-current="true"]{color:var(--burgundy);box-shadow:inset 0 -2px 0 var(--gold)}
+
+/* Language switch */
+.lang-switch{position:relative;display:inline-flex;align-items:center;padding:3px;border:1px solid var(--gold);border-radius:3px;background:var(--ivory);cursor:pointer;font:inherit;color:var(--ink);flex-shrink:0;min-height:40px}
+.lang-switch .opt{position:relative;z-index:1;padding:5px 11px;font-size:.88rem;line-height:1.2;transition:color .25s}
+.lang-switch .opt-kn{font-family:var(--kn-sans), var(--sans)}
+.lang-switch .thumb{position:absolute;top:3px;bottom:3px;left:3px;width:calc(50% - 3px);background:var(--burgundy);border-radius:2px;transition:transform .25s ease, width .25s ease}
+.lang-switch[aria-checked="false"] .opt-en,.lang-switch[aria-checked="true"] .opt-kn{color:var(--ivory)}
+.lang-switch[aria-checked="true"] .thumb{transform:translateX(100%)}
+.lang-switch:hover{border-color:var(--burgundy)}
+
+.menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:3px;min-width:44px;min-height:44px;cursor:pointer;color:var(--burgundy);padding:0}
+.menu-btn svg{width:22px;height:22px;margin:auto;display:block}
+
+@media (max-width: 1020px){
+  .menu-btn{display:inline-flex;align-items:center;justify-content:center}
+  .nav{position:fixed;inset:var(--header-h) 0 auto 0;background:var(--ivory);border-bottom:1px solid var(--line);display:none;max-height:calc(100vh - var(--header-h));overflow:auto}
+  .nav.open{display:block}
+  .nav ul{flex-direction:column;padding:8px var(--gutter) 18px}
+  .nav a{padding:13px 4px;font-size:1.05rem;border-bottom:1px solid var(--line)}
+  .nav a[aria-current="true"]{box-shadow:none}
+}
+@media (max-width: 420px){
+  .brand-desc{display:none}
+  .brand-name{font-size:1.25rem}
+  .header-inner{gap:10px}
+  .lang-switch .opt{padding:5px 8px}
+}
+
+/* =========================================================
+   5. SECTIONS
+   ========================================================= */
+section{padding:clamp(64px, 9vw, 120px) 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+.eyebrow{display:flex;align-items:center;gap:12px;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 18px}
+html[lang="kn"] .eyebrow{letter-spacing:.04em;text-transform:none;font-size:.9rem}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--gold)}
+.section-title{font-size:clamp(2rem, 2.6vw + 1rem, 3rem);max-width:22ch;margin-bottom:24px}
+html[lang="kn"] .section-title{font-size:clamp(1.6rem, 1.8vw + 1rem, 2.35rem);max-width:none}
+.lead{font-size:1.1em;color:var(--ink);max-width:var(--measure)}
+.prose{max-width:var(--measure)}
+.muted{color:var(--ink-soft)}
+
+/* ---------- Hero ---------- */
+.hero{padding-top:clamp(40px, 6vw, 84px);padding-bottom:clamp(56px, 8vw, 104px)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(32px, 6vw, 88px);align-items:center}
+.hero h1{font-size:clamp(2.8rem, 5vw + 1rem, 5.2rem);font-weight:500;letter-spacing:-.01em;margin:0 0 6px}
+html[lang="kn"] .hero h1{font-size:clamp(2.1rem, 3.2vw + 1rem, 3.6rem)}
+.hero-alt{font-family:var(--kn-serif), var(--serif);color:var(--gold);font-size:clamp(1.15rem, 1vw + .9rem, 1.55rem);margin:0 0 28px}
+html[lang="kn"] .hero-alt{font-family:var(--serif);font-size:clamp(1.3rem, 1vw + 1rem, 1.8rem);font-style:italic}
+.hero-intro{font-size:1.12em;max-width:56ch;color:var(--ink)}
+.hero-links{display:flex;flex-wrap:wrap;gap:14px 26px;align-items:center;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:12px 24px;background:var(--burgundy);color:var(--ivory);text-decoration:none;border-radius:2px;font-weight:600;letter-spacing:.01em;transition:background .2s}
+.btn:hover{background:var(--burgundy-soft);color:var(--ivory)}
+.btn svg{width:16px;height:16px;transition:transform .2s}
+.btn:hover svg{transform:translateY(2px)}
+.text-link{font-weight:600;text-decoration:none;border-bottom:1px solid var(--gold);padding:6px 0}
+.text-link:hover{border-bottom-color:var(--burgundy)}
+.portrait{position:relative;justify-self:center;width:min(100%, 400px)}
+.portrait::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--gold);pointer-events:none}
+.portrait figure{margin:0;position:relative;background:var(--ivory-deep)}
+.portrait img{width:100%;aspect-ratio:454/549;object-fit:cover}
+.portrait figcaption{position:absolute;left:0;bottom:-48px;font-size:.85rem;color:var(--ink-soft)}
+.facts{margin:clamp(48px, 7vw, 80px) 0 0;display:grid;grid-template-columns:repeat(4, minmax(0,1fr));border-top:1px solid var(--line)}
+.facts div{padding:20px 22px 4px 0}
+.facts div + div{padding-left:22px;border-left:1px solid var(--line)}
+.facts dt{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;font-weight:600}
+html[lang="kn"] .facts dt{letter-spacing:.02em;text-transform:none;font-size:.9rem}
+.facts dd{margin:0;font-size:.97rem;line-height:1.5}
+@media (max-width: 900px){
+  .hero-grid{grid-template-columns:1fr}
+  .portrait{order:-1;width:min(78%, 330px);justify-self:start;margin-bottom:12px}
+  .portrait figcaption{display:none}
+  .facts{grid-template-columns:repeat(2, minmax(0,1fr))}
+  .facts div:nth-child(3){padding-left:0;border-left:0}
+  .facts div:nth-child(n+3){border-top:1px solid var(--line)}
+}
+@media (max-width: 480px){
+  .facts{grid-template-columns:1fr}
+  .facts div,.facts div + div{padding-left:0;border-left:0}
+  .facts div + div{border-top:1px solid var(--line)}
+}
+
+/* ---------- About ---------- */
+.about-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0, 380px);gap:clamp(32px, 6vw, 88px);align-items:start}
+.quotes{display:flex;flex-direction:column;gap:36px;padding-top:8px}
+blockquote{margin:0;padding:0 0 0 22px;border-left:2px solid var(--gold)}
+blockquote .kn-quote{font-family:var(--kn-serif), var(--serif);font-size:1.18rem;line-height:1.7;color:var(--burgundy);margin:0 0 10px}
+blockquote .tr{font-family:var(--serif);font-style:italic;font-size:1.18rem;line-height:1.5;color:var(--ink);margin:0 0 10px}
+blockquote footer{font-size:.9rem;color:var(--ink-soft)}
+.tr-note{font-size:.8rem;color:var(--ink-soft);letter-spacing:.04em}
+@media (max-width: 900px){.about-grid{grid-template-columns:1fr}}
+
+/* ---------- Service ---------- */
+.terrain{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:clamp(24px, 3vw, 44px);margin:48px 0 0}
+.terrain article{border-top:2px solid var(--burgundy);padding-top:18px}
+.terrain h3{font-size:1.45rem;margin-bottom:10px}
+html[lang="kn"] .terrain h3{font-size:1.15rem}
+.terrain p{font-size:.97rem;color:var(--ink);margin:0}
+.moment{display:grid;grid-template-columns:minmax(0, 1.05fr) minmax(0, 1fr);gap:clamp(28px, 5vw, 64px);align-items:center;margin:clamp(56px, 8vw, 96px) 0;background:var(--ivory-deep);padding:clamp(20px, 3vw, 36px)}
+.moment figure{margin:0}
+.moment img{width:100%;aspect-ratio:870/587;object-fit:cover}
+.moment figcaption{font-size:.85rem;color:var(--ink-soft);margin-top:10px}
+.moment h3{font-size:clamp(1.6rem, 1.4vw + 1rem, 2.1rem);margin-bottom:14px}
+html[lang="kn"] .moment h3{font-size:clamp(1.25rem, 1vw + .9rem, 1.6rem)}
+.moment p:last-child{margin-bottom:0}
+.letters{max-width:880px}
+.letters h3{font-size:1.6rem;margin-bottom:6px}
+html[lang="kn"] .letters h3{font-size:1.25rem}
+.letters ol{list-style:none;margin:22px 0 0;padding:0;border-top:1px solid var(--line)}
+.letters li{display:grid;grid-template-columns:72px minmax(0,1fr);gap:18px;padding:16px 0;border-bottom:1px solid var(--line);font-size:.98rem}
+.letters .yr{font-family:var(--serif);font-size:1.25rem;color:var(--gold);font-weight:600;line-height:1.4}
+.service-strip{display:grid;grid-template-columns:repeat(4, minmax(0,1fr));gap:16px;margin-top:clamp(48px, 7vw, 80px)}
+.service-strip figure{margin:0}
+.service-strip img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--ivory-deep)}
+.service-strip figcaption{font-size:.84rem;line-height:1.45;color:var(--ink-soft);margin-top:8px}
+@media (max-width: 900px){
+  .terrain{grid-template-columns:1fr}
+  .moment{grid-template-columns:1fr}
+  .service-strip{grid-template-columns:repeat(2, minmax(0,1fr))}
+}
+@media (max-width: 480px){.letters li{grid-template-columns:1fr;gap:2px}}
+
+/* ---------- Works ---------- */
+.works-group{margin-top:clamp(44px, 6vw, 72px)}
+.works-group > h3{font-size:1.15rem;font-family:var(--sans);font-weight:600;color:var(--ink-soft);letter-spacing:.12em;text-transform:uppercase;padding-bottom:12px;border-bottom:1px solid var(--line);margin-bottom:8px}
+html[lang="kn"] .works-group > h3{font-family:var(--kn-sans), var(--sans);letter-spacing:.02em;text-transform:none;font-size:1.05rem}
+.book{display:grid;grid-template-columns:120px minmax(0,1fr);gap:clamp(18px, 3vw, 36px);padding:26px 0;border-bottom:1px solid var(--line);align-items:start}
+.book .cover{width:120px;aspect-ratio:2/3;background:var(--ivory-deep);box-shadow:0 1px 0 var(--line), 6px 8px 0 -2px var(--line)}
+.book .cover img{width:100%;height:100%;object-fit:cover}
+.book .cover.blank{display:flex;align-items:center;justify-content:center;border:1px solid var(--line);box-shadow:none;background:linear-gradient(180deg, var(--ivory) 0%, var(--ivory-deep) 100%)}
+.book .cover.blank span{font-family:var(--kn-serif), var(--serif);color:var(--gold);font-size:2rem}
+.book-title{font-family:var(--kn-serif), var(--serif);font-size:clamp(1.3rem, .8vw + 1rem, 1.6rem);line-height:1.45;color:var(--burgundy);font-weight:600;margin:0}
+.book-roman{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--ink-soft);margin:2px 0 10px}
+.book p{margin:0 0 8px;max-width:var(--measure)}
+.book .meta{font-size:.84rem;color:var(--ink-soft);letter-spacing:.03em}
+@media (max-width: 520px){
+  .book{grid-template-columns:84px minmax(0,1fr)}
+  .book .cover{width:84px}
+}
+
+/* ---------- Recognition ---------- */
+.featured{display:grid;grid-template-columns:repeat(4, minmax(0,1fr));gap:clamp(18px, 2.4vw, 32px);margin:44px 0 0}
+.featured figure{margin:0}
+.featured img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--ivory-deep)}
+.featured .yr{display:block;font-family:var(--serif);color:var(--gold);font-size:1.2rem;font-weight:600;margin-top:14px}
+.featured h3{font-size:1.3rem;margin:2px 0 6px;line-height:1.25}
+html[lang="kn"] .featured h3{font-size:1.08rem;line-height:1.5}
+.featured p{font-size:.92rem;color:var(--ink-soft);margin:0}
+@media (max-width: 1020px){.featured{grid-template-columns:repeat(2, minmax(0,1fr))}}
+@media (max-width: 480px){.featured{grid-template-columns:1fr}}
+.rec-cols{display:grid;grid-template-columns:minmax(0, 1.35fr) minmax(0, 1fr);gap:clamp(36px, 6vw, 80px);margin-top:clamp(56px, 8vw, 96px);align-items:start}
+.rec-cols h3{font-size:1.6rem;margin-bottom:6px}
+html[lang="kn"] .rec-cols h3{font-size:1.25rem}
+.awards{width:100%;border-collapse:collapse;margin-top:18px;font-size:.95rem}
+.awards caption{text-align:left;font-size:.85rem;color:var(--ink-soft);padding-bottom:10px}
+.awards th{text-align:left;font-weight:600;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);border-bottom:1px solid var(--gold);padding:10px 12px 10px 0}
+html[lang="kn"] .awards th{letter-spacing:.02em;text-transform:none;font-size:.88rem}
+.awards td{padding:12px 12px 12px 0;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.awards td:first-child{font-family:var(--serif);color:var(--gold);font-weight:600;font-size:1.1rem;white-space:nowrap;width:4.2em}
+.awards td.award-name{color:var(--ink);font-weight:600}
+.awards td.by{color:var(--ink-soft)}
+.side-block + .side-block{margin-top:44px}
+.side-block ul{list-style:none;margin:16px 0 0;padding:0}
+.side-block li{padding:12px 0;border-bottom:1px solid var(--line);font-size:.95rem;line-height:1.55}
+.side-block li:first-child{border-top:1px solid var(--line)}
+.note{font-size:.88rem;color:var(--ink-soft);margin-top:4px}
+.tag{display:inline-block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--burgundy);border:1px solid var(--gold);padding:1px 7px;margin-right:6px;vertical-align:2px;border-radius:2px}
+html[lang="kn"] .tag{letter-spacing:.02em;text-transform:none;font-size:.78rem}
+@media (max-width: 900px){
+  .rec-cols{grid-template-columns:1fr}
+}
+@media (max-width: 560px){
+  .awards thead{display:none}
+  .awards, .awards tbody, .awards tr, .awards td{display:block;width:100%}
+  .awards tr{padding:12px 0;border-bottom:1px solid var(--line)}
+  .awards td{border:0;padding:0}
+  .awards td:first-child{width:auto}
+}
+
+/* ---------- Contributions ---------- */
+.contrib{display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:0 clamp(32px, 5vw, 72px);margin-top:44px}
+.contrib article{padding:26px 0;border-top:1px solid var(--line)}
+.contrib h3{font-size:1.45rem;margin-bottom:8px}
+html[lang="kn"] .contrib h3{font-size:1.15rem}
+.contrib p{margin:0;font-size:.98rem}
+.contrib-photos{display:grid;grid-template-columns:2fr 1fr 1fr;gap:16px;margin-top:clamp(40px, 6vw, 64px)}
+.contrib-photos figure{margin:0}
+.contrib-photos img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--ivory-deep)}
+.contrib-photos figure:first-child img{aspect-ratio:auto;height:100%;max-height:420px}
+.contrib-photos figcaption{font-size:.84rem;color:var(--ink-soft);margin-top:8px;line-height:1.45}
+.roles{margin-top:clamp(48px, 7vw, 80px);background:var(--ivory-deep);padding:clamp(22px, 3vw, 40px)}
+.roles h3{font-size:1.6rem;margin-bottom:14px}
+html[lang="kn"] .roles h3{font-size:1.25rem}
+.roles ul{margin:0;padding:0;list-style:none;columns:2;column-gap:48px}
+.roles li{break-inside:avoid;padding:9px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.roles li strong{display:block;color:var(--burgundy);font-weight:600}
+@media (max-width: 900px){
+  .contrib{grid-template-columns:1fr}
+  .contrib-photos{grid-template-columns:1fr 1fr}
+  .contrib-photos figure:first-child{grid-column:1 / -1}
+  .roles ul{columns:1}
+}
+
+/* ---------- Archive / gallery ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:34px 0 28px}
+.filters button{font:inherit;font-size:.92rem;min-height:44px;padding:8px 16px;background:transparent;border:1px solid var(--line);color:var(--ink);border-radius:2px;cursor:pointer}
+.filters button:hover{border-color:var(--gold)}
+.filters button[aria-pressed="true"]{background:var(--burgundy);border-color:var(--burgundy);color:var(--ivory)}
+.gallery{display:grid;grid-template-columns:repeat(4, minmax(0,1fr));gap:18px}
+.gallery figure{margin:0}
+.gallery figure[hidden]{display:none}
+.g-btn{display:block;width:100%;padding:0;border:0;background:var(--ivory-deep);cursor:zoom-in;overflow:hidden}
+.g-btn img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .5s ease, opacity .3s}
+.g-btn:hover img{transform:scale(1.03)}
+.gallery figcaption{font-size:.84rem;line-height:1.45;color:var(--ink-soft);margin-top:8px}
+@media (max-width: 1020px){.gallery{grid-template-columns:repeat(3, minmax(0,1fr))}}
+@media (max-width: 680px){.gallery{grid-template-columns:repeat(2, minmax(0,1fr));gap:14px}}
+
+/* Lightbox */
+.lightbox{border:0;padding:0;max-width:min(1100px, 94vw);width:100%;background:transparent;color:var(--ivory)}
+.lightbox::backdrop{background:rgba(30,22,24,.88)}
+.lb-inner{display:flex;flex-direction:column;align-items:center;gap:14px}
+.lb-inner img{max-height:76vh;width:auto;max-width:100%;background:#1e1618}
+.lb-cap{max-width:70ch;text-align:center;font-size:1rem;line-height:1.5;margin:0;padding:0 8px}
+.lb-bar{display:flex;gap:10px;justify-content:center}
+.lb-bar button{font:inherit;min-width:48px;min-height:48px;padding:8px 16px;background:rgba(247,244,237,.08);color:var(--ivory);border:1px solid rgba(181,154,112,.6);border-radius:2px;cursor:pointer}
+.lb-bar button:hover{background:rgba(247,244,237,.18)}
+.lb-bar button:focus-visible{outline-color:var(--gold)}
+
+/* ---------- Contact & footer ---------- */
+.contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px, 6vw, 80px);align-items:start}
+.contact-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.contact-list li{padding:18px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;align-items:baseline}
+.contact-list span{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600}
+html[lang="kn"] .contact-list span{letter-spacing:.02em;text-transform:none;font-size:.9rem}
+.contact-list a{font-size:1.12rem;word-break:break-word}
+@media (max-width: 760px){.contact-grid{grid-template-columns:1fr}}
+@media (max-width: 420px){.contact-list li{grid-template-columns:1fr;gap:2px}}
+
+.site-footer{background:var(--burgundy);color:#EFE6DA;padding:56px 0 36px}
+.site-footer a{color:#F7F4ED}
+.footer-top{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:start}
+.footer-name{font-family:var(--serif);font-size:2rem;color:var(--ivory);margin:0}
+html[lang="kn"] .footer-name{font-family:var(--kn-serif), var(--serif);font-size:1.5rem}
+.footer-desc{margin:4px 0 18px;color:#E3D6C6}
+.site-footer .ka-mark{color:#E3D6C6;font-size:.9rem}
+.footer-nav ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:4px 24px}
+.footer-nav a{display:inline-block;padding:7px 0;text-decoration:none;font-size:1rem}
+.footer-nav a:hover{text-decoration:underline}
+.footer-bottom{margin-top:44px;padding-top:22px;border-top:1px solid rgba(181,154,112,.45);display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center;font-size:.92rem;color:#E3D6C6}
+.to-top{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 14px;border:1px solid rgba(181,154,112,.7);border-radius:2px;text-decoration:none}
+.to-top:hover{background:rgba(247,244,237,.08)}
+@media (max-width: 760px){.footer-top{grid-template-columns:1fr}}
+
+/* =========================================================
+   6. MOTION — content is visible by default; JS opts in to reveal.
+   ========================================================= */
+.js-motion .reveal{opacity:0;transform:translateY(14px);transition:opacity .8s ease, transform .8s ease}
+.js-motion .reveal.in{opacity:1;transform:none}
+.js-motion .img-reveal img{clip-path:inset(0 0 8% 0);opacity:.0;transition:clip-path 1s ease, opacity .9s ease}
+.js-motion .img-reveal.in img{clip-path:inset(0 0 0 0);opacity:1}
+main{transition:opacity .18s ease}
+main.switching{opacity:.35}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+@media print{
+  .site-header,.filters,.lightbox,.skip{display:none}
+  section{padding:24px 0}
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#home" aria-label="Muhammad Munaf — home" data-i18n-attr="aria-label:brand.aria">
+      <span class="brand-name" data-i18n="name">Muhammad Munaf</span>
+      <span class="brand-desc" data-i18n="descriptor">Kannada Poet &amp; Author</span>
+    </a>
+
+    <nav class="nav" id="site-nav" aria-label="Main" data-i18n-attr="aria-label:nav.aria">
+      <ul>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#service" data-i18n="nav.service">Service</a></li>
+        <li><a href="#works" data-i18n="nav.works">Works</a></li>
+        <li><a href="#recognition" data-i18n="nav.recognition">Recognition</a></li>
+        <li><a href="#contributions" data-i18n="nav.contributions">Contributions</a></li>
+        <li><a href="#archive" data-i18n="nav.archive">Archive</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Language toggle: a genuine switch. Checked = Kannada. -->
+    <button type="button" class="lang-switch" id="lang-switch" role="switch" aria-checked="false"
+            aria-label="Kannada language" data-i18n-attr="aria-label:lang.aria" lang="en">
+      <span class="thumb" aria-hidden="true"></span>
+      <span class="opt opt-en" aria-hidden="true">EN</span>
+      <span class="opt opt-kn" aria-hidden="true" lang="kn">ಕನ್ನಡ</span>
+    </button>
+
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav"
+            aria-label="Open menu" data-i18n-attr="aria-label:menu.open">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- =====================================================
+     HERO
+     ===================================================== -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Poet · Author · Organiser</p>
+        <h1 id="hero-title" data-i18n="name">Muhammad Munaf</h1>
+        <p class="hero-alt" data-i18n="hero.alt" lang="kn" data-lang-flip>ಮುಹಮ್ಮದ್ ಮುನಾಫ್</p>
+        <p class="hero-intro" data-i18n="hero.intro">A Kannada poet and author from Parashurampura in Chitradurga district. For 34 years he served with BEML, testing and maintaining defence vehicles for the Indian Army from the high Himalaya to the Rajasthan desert — and for two decades he has given his life outside work to Kannada literature, language and community.</p>
+        <div class="hero-links">
+          <a class="btn" href="#about"><span data-i18n="hero.cta1">Explore His Journey</span>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 2v11M3.5 8.5 8 13l4.5-4.5"/></svg></a>
+          <a class="text-link" href="#works" data-i18n="hero.cta2">Literary Works</a>
+        </div>
+      </div>
+
+      <div class="portrait reveal">
+        <figure>
+          <img src="images/munaf-portrait.jpg" width="454" height="549" fetchpriority="high"
+               alt="Portrait of Muhammad Munaf" data-i18n-attr="alt:hero.portraitAlt">
+          <figcaption data-i18n="hero.portraitCap">Muhammad Munaf, Bengaluru</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <dl class="facts reveal">
+      <div><dt data-i18n="facts.bornL">Born</dt><dd data-i18n="facts.born">3 June 1957, Parashurampura, Challakere taluk, Chitradurga district</dd></div>
+      <div><dt data-i18n="facts.eduL">Education</dt><dd data-i18n="facts.edu">Diploma in Mechanical Engineering; M.A. in Kannada</dd></div>
+      <div><dt data-i18n="facts.careerL">Career</dt><dd data-i18n="facts.career">BEML Limited, 34 years; retired 30 June 2017</dd></div>
+      <div><dt data-i18n="facts.homeL">Lives in</dt><dd data-i18n="facts.home">Bengaluru, Karnataka</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- =====================================================
+     ABOUT
+     ===================================================== -->
+<section id="about" aria-labelledby="about-title">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+      <h2 class="section-title" id="about-title" data-i18n="about.title">A life of service and letters</h2>
+      <div class="prose">
+        <p data-i18n="about.p1">Muhammad Munaf — also known as M.D. Munaf — was born into a family of modest means in Parashurampura, a village near Challakere in Chitradurga district, and completed his schooling in the village. As a high-school student he dreamed of serving the nation as a soldier. That door did not open, but his working life would take him to India's frontiers all the same, in service of the armed forces.</p>
+        <p data-i18n="about.p2">Moving to Bengaluru in search of work, he joined BEML Limited — the Government of India enterprise under the Ministry of Defence that builds heavy defence equipment and metro trains. Over 34 years he rose to senior superintendent in its Defence Business and Service division, retiring on 30 June 2017.</p>
+        <p data-i18n="about.p3">Alongside his career he kept alive a love of literature that began in childhood. Through poetry, prose, theatre, literary conferences and Kannada movements, he has served the language and culture of Karnataka for two decades — writing books of travel, biography and verse, and building places where others could meet Kannada literature.</p>
+        <p data-i18n="about.p4">Senior figures of Kannada literature — among them Nadoja Prof. K.S. Nisar Ahmed, Padma Shri Dr. Doddarangegowda, Nadoja Dr. Siddalingaiah and Prof. Hi.Chi. Boralingaiah — have written in appreciation of his work.</p>
+      </div>
+    </div>
+
+    <aside class="quotes reveal" aria-label="In the words of senior writers" data-i18n-attr="aria-label:about.quotesAria">
+      <blockquote>
+        <p class="kn-quote" lang="kn">“ಸರಳತೆ, ಸೌಜನ್ಯ ಮಾನವ ಪ್ರೀತಿಗೆ ಹೆಸರಾದ ಮುಹಮ್ಮದ್ ಮುನಾಫ್ ಆಶುಕವಿ.”</p>
+        <p class="tr en-only">“Known for his simplicity, courtesy and love of humanity, Muhammad Munaf is a poet of spontaneous verse.”</p>
+        <footer data-i18n="about.q1by">— Nadoja Dr. Siddalingaiah</footer>
+      </blockquote>
+      <blockquote>
+        <p class="kn-quote" lang="kn">“ಮುಗ್ದ ಮನಸಿನ ನಮ್ಮೆಲ್ಲರ ನಲ್ಮೆಯ ಕವಿ ಮುಹಮ್ಮದ್ ಮುನಾಫ್”</p>
+        <p class="tr en-only">“Muhammad Munaf — a poet of innocent heart, dear to us all.”</p>
+        <footer data-i18n="about.q2by">— Padma Shri Dr. Doddarangegowda</footer>
+      </blockquote>
+      <p class="tr-note en-only">Quotations appear in their original Kannada; English renderings are translations.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- =====================================================
+     PROFESSIONAL JOURNEY & DEFENCE-RELATED SERVICE
+     ===================================================== -->
+<section id="service" aria-labelledby="service-title">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="service.eyebrow">Professional Journey</p>
+      <h2 class="section-title" id="service-title" data-i18n="service.title">Thirty-four years in service of India's defence</h2>
+      <p class="lead" data-i18n="service.intro">At BEML, Munaf's work centred on BEML-built Tatra vehicles — from 4×4 to 12×12 variants, including the field artillery trucks that tow Bofors guns. As a proof operator and service specialist he took part in production testing and trial evaluation, resolved issues raised by Army units in the field, and trained personnel to operate and maintain the equipment. He served as a civilian technical specialist with a defence public-sector company, not as a member of the armed forces.</p>
+    </div>
+
+    <div class="terrain">
+      <article class="reveal">
+        <h3 data-i18n="service.t1h">The high Himalaya</h3>
+        <p data-i18n="service.t1">Training and repair camps for Army personnel at altitudes of 14,000–19,000 ft, in temperatures as low as −18 °C — in the Siachen region, Khardung La, Leh–Ladakh, the Nubra and Hunder valleys, Kargil, Sikkim, and at Sela Top and Jaswantgarh in Arunachal Pradesh.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="service.t2h">The Rajasthan desert</h3>
+        <p data-i18n="service.t2">Vehicle trials and training camps in extreme desert heat at Army stations in Jodhpur, Jaisalmer, Pokhran, Bikaner, Nasirabad, Ganganagar and Surajgarh.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="service.t3h">The islands and beyond</h3>
+        <p data-i18n="service.t3">Service visits to defence stations in the Andaman and Nicobar Islands, including the Air Force Station at Car Nicobar, and repair and technical training for radar equipment, including at Kudankulam in Tamil Nadu.</p>
+      </article>
+    </div>
+
+    <div class="moment reveal">
+      <figure class="img-reveal">
+        <img src="images/service-tawang-bofors.jpg" width="870" height="587" loading="lazy"
+             alt="A Bofors gun and its towing truck on a mountain site in Tawang, with soldiers nearby" data-i18n-attr="alt:service.momentAlt">
+        <figcaption data-i18n="service.momentCap">Trials of a Bofors-towing Tatra truck at about 13,000 ft, Tawang, Arunachal Pradesh</figcaption>
+      </figure>
+      <div>
+        <h3 data-i18n="service.momentH">A moment near Sela Top</h3>
+        <p data-i18n="service.moment">In 2003, during a quality trial of a Bofors-towing Tatra truck in the snowbound Tawang district of Arunachal Pradesh, the Army driver lost control on a turn near Sela Top and the vehicle was about to fall. Munaf's quick response brought it under control, saving seven Army personnel, including a Major. BEML recorded the episode in an appreciation certificate issued on 15 August 2013.</p>
+      </div>
+    </div>
+
+    <div class="letters reveal">
+      <h3 data-i18n="service.lettersH">Documented appreciation</h3>
+      <p class="note" data-i18n="service.lettersNote">Letters and certificates reproduced in his biographical record.</p>
+      <ol>
+        <li><span class="yr">2011</span><span data-i18n="service.l1">Certificate of Visit to the Watershed Memorial on the India–China border in Sikkim (15,700 ft), issued by the Garrison Commander.</span></li>
+        <li><span class="yr">2013</span><span data-i18n="service.l2">Appreciation Certificate, BEML Limited — for trial testing at high altitude and for saving seven Army personnel near Sela Top.</span></li>
+        <li><span class="yr">2015</span><span data-i18n="service.l3">Appreciation letter, No. 151 Squadron, Indian Air Force, Car Nicobar — for restoring the unit's Tatra vehicles to full operation.</span></li>
+        <li><span class="yr">2015</span><span data-i18n="service.l4">Letter from the Controllerate of Quality Assurance (BEML), DGQA, Ministry of Defence — describing three decades of Tatra testing and service, and recommending that his contribution be recognised.</span></li>
+        <li><span class="yr">—</span><span data-i18n="service.l5">Appreciation from the Army Akash Project (Missile Systems SBU), Bharat Electronics Limited — for prompt service on Tatra vehicles supplied under the project.</span></li>
+        <li><span class="yr">2016</span><span data-i18n="service.l6">Letter from Shri Dharmendra Pradhan, then Minister of State (Independent Charge) for Petroleum &amp; Natural Gas, to Defence Minister Shri Manohar Parrikar, recommending him for the Prime Minister's Shram Awards.</span></li>
+      </ol>
+    </div>
+
+    <div class="service-strip">
+      <figure class="img-reveal reveal">
+        <img src="images/service-khardung-la.jpg" width="876" height="581" loading="lazy" alt="Munaf in snow beside the Khardung La road sign" data-i18n-attr="alt:g.khardungAlt">
+        <figcaption data-i18n="g.khardung">At Khardung La (18,380 ft), during a technical training camp for soldiers</figcaption>
+      </figure>
+      <figure class="img-reveal reveal">
+        <img src="images/service-kargil-soldiers.jpg" width="881" height="601" loading="lazy" alt="Munaf with Indian soldiers in front of a Tatra truck at Kargil" data-i18n-attr="alt:g.kargilSAlt">
+        <figcaption data-i18n="g.kargilS">With Indian soldiers during Tatra trials at the Kargil base</figcaption>
+      </figure>
+      <figure class="img-reveal reveal">
+        <img src="images/service-jodhpur.jpg" width="620" height="419" loading="lazy" alt="Munaf with soldiers beside Army vehicles in the Jodhpur desert" data-i18n-attr="alt:g.jodhpurAlt">
+        <figcaption data-i18n="g.jodhpur">With soldiers at a Tatra trial and training camp in the Jodhpur desert</figcaption>
+      </figure>
+      <figure class="img-reveal reveal">
+        <img src="images/service-desert-bofors.jpg" width="853" height="571" loading="lazy" alt="Munaf standing beside a Bofors gun at a desert Army base" data-i18n-attr="alt:g.desertAlt">
+        <figcaption data-i18n="g.desert">Beside a Bofors gun at a desert Army base in Rajasthan</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     LITERARY WORKS
+     ===================================================== -->
+<section id="works" aria-labelledby="works-title">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="works.eyebrow">Literary Works</p>
+      <h2 class="section-title" id="works-title" data-i18n="works.title">Books in Kannada</h2>
+      <p class="lead" data-i18n="works.intro">His writing moves between the frontier and the heart: narratives of journeys through the Himalaya and the desert, portraits of Dr. A.P.J. Abdul Kalam, and three collections of poetry. Titles appear in the original Kannada with a romanised reading.</p>
+    </div>
+
+    <div class="works-group">
+      <h3 data-i18n="works.g1">Travel, experience &amp; biography</h3>
+
+      <article class="book reveal">
+        <div class="cover"><img src="images/book-himashringa.jpg" width="441" height="662" loading="lazy" alt="Cover of Himashringa" data-i18n-attr="alt:works.b1Alt"></div>
+        <div>
+          <p class="book-title" lang="kn">ಹಿಮಶೃಂಗ</p>
+          <p class="book-roman en-only">Himashringa</p>
+          <p data-i18n="works.b1">An adventurous travel narrative recounting journeys to Srinagar, the Khardung La pass and the Nubra Valley, and the thrilling and difficult moments along the way. It carries words of blessing by Nadoja Prof. K.S. Nisar Ahmed.</p>
+          <p class="meta" data-i18n="works.b1m">Travel narrative · Reshma Prakashana</p>
+        </div>
+      </article>
+
+      <article class="book reveal">
+        <div class="cover blank" aria-hidden="true"><span>ಕೃ</span></div>
+        <div>
+          <p class="book-title" lang="kn">ಹಿಮಾಲಯ ಮರುಭೂಮಿಗಳ ಒಡಲಾಳ <span style="white-space:normal">(ಅರುಣಾಚಲವೆಂಬ ನಿಗೂಢ ಜಗತ್ತು)</span></p>
+          <p class="book-roman en-only">Himalaya Marubhoomigala Odalala (Arunachalavemba Nigooda Jagattu)</p>
+          <p data-i18n="works.b2">A narrative drawn from his experiences on the Himalayan and desert frontiers, with a particular focus on Arunachal Pradesh.</p>
+          <p class="meta" data-i18n="works.b2m">Experience narrative</p>
+        </div>
+      </article>
+
+      <article class="book reveal">
+        <div class="cover"><img src="images/book-janata-rashtrapati.jpg" width="632" height="1019" loading="lazy" alt="Cover of Janata Rashtrapati Dr. A.P.J. Abdul Kalam" data-i18n-attr="alt:works.b3Alt"></div>
+        <div>
+          <p class="book-title" lang="kn">ಜನತಾ ರಾಷ್ಟ್ರಪತಿ ಭಾರತ ರತ್ನ ಡಾ. ಎ.ಪಿ.ಜೆ. ಅಬ್ದುಲ್ ಕಲಾಂ</p>
+          <p class="book-roman en-only">Janata Rashtrapati Bharata Ratna Dr. A.P.J. Abdul Kalam</p>
+          <p data-i18n="works.b3">A biographical portrait of Dr. A.P.J. Abdul Kalam, the “People's President”.</p>
+          <p class="meta" data-i18n="works.b3m">Biography · Reshma Prakashana</p>
+        </div>
+      </article>
+
+      <article class="book reveal">
+        <div class="cover blank" aria-hidden="true"><span>ಕೃ</span></div>
+        <div>
+          <p class="book-title" lang="kn">ಜ್ಞಾನ ವಿಜ್ಞಾನಗಳ ಸಂಗಮ ಡಾ. ಎ.ಪಿ.ಜೆ. ಅಬ್ದುಲ್ ಕಲಾಂ</p>
+          <p class="book-roman en-only">Jnana Vijnanagala Sangama Dr. A.P.J. Abdul Kalam</p>
+          <p data-i18n="works.b4">A second book devoted to Dr. A.P.J. Abdul Kalam.</p>
+          <p class="meta" data-i18n="works.b4m">On Dr. Kalam</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="works-group">
+      <h3 data-i18n="works.g2">Poetry collections</h3>
+
+      <article class="book reveal">
+        <div class="cover"><img src="images/book-bhavabanada-kusuma.jpg" width="592" height="1019" loading="lazy" alt="Cover of Bhavabanada Kusuma" data-i18n-attr="alt:works.b5Alt"></div>
+        <div>
+          <p class="book-title" lang="kn">ಭಾವಬನದ ಕುಸುಮ</p>
+          <p class="book-roman en-only">Bhavabanada Kusuma</p>
+          <p data-i18n="works.b5">A collection of poems, released by the noted writer M.N. Vyasarao.</p>
+          <p class="meta" data-i18n="works.b5m">Poetry · Reshma Prakashana</p>
+        </div>
+      </article>
+
+      <article class="book reveal">
+        <div class="cover"><img src="images/book-bhava-bagina.jpg" width="414" height="647" loading="lazy" alt="Cover of Bhava Bagina" data-i18n-attr="alt:works.b6Alt"></div>
+        <div>
+          <p class="book-title" lang="kn">ಭಾವ ಬಾಗೀನ</p>
+          <p class="book-roman en-only">Bhava Bagina</p>
+          <p data-i18n="works.b6">A collection of poems.</p>
+          <p class="meta" data-i18n="works.b6m">Poetry · Reshma Prakashana</p>
+        </div>
+      </article>
+
+      <article class="book reveal">
+        <div class="cover blank" aria-hidden="true"><span>ಕೃ</span></div>
+        <div>
+          <p class="book-title" lang="kn">ಕನಸೆಂಬ ದೋಣಿಯಲಿ</p>
+          <p class="book-roman en-only">Kanasemba Doniyali</p>
+          <p data-i18n="works.b7">A collection of poems.</p>
+          <p class="meta" data-i18n="works.b7m">Poetry</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="works-group">
+      <h3 data-i18n="works.g3">Other writing</h3>
+
+      <article class="book reveal">
+        <div class="cover"><img src="images/book-parisara-jagruti.jpg" width="419" height="652" loading="lazy" alt="Cover of Parisara Jagruti" data-i18n-attr="alt:works.b8Alt"></div>
+        <div>
+          <p class="book-title" lang="kn">ಪರಿಸರ ಜಾಗೃತಿ</p>
+          <p class="book-roman en-only">Parisara Jagruti</p>
+          <p data-i18n="works.b8">A book on environmental awareness.</p>
+          <p class="meta" data-i18n="works.b8m">Environment · Reshma Prakashana</p>
+        </div>
+      </article>
+
+      <article class="book reveal">
+        <div class="cover blank" aria-hidden="true"><span>ಕೃ</span></div>
+        <div>
+          <p class="book-title" lang="kn">ವಿಚಾರ ರಶ್ಮಿ</p>
+          <p class="book-roman en-only">Vichara Rashmi</p>
+          <p data-i18n="works.b9">A short book written for schoolchildren.</p>
+          <p class="meta" data-i18n="works.b9m">For children · 2024</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     AWARDS & RECOGNITION
+     ===================================================== -->
+<section id="recognition" aria-labelledby="rec-title">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="rec.eyebrow">Awards &amp; Recognition</p>
+      <h2 class="section-title" id="rec-title" data-i18n="rec.title">Honours received</h2>
+      <p class="lead" data-i18n="rec.intro">Recognition from literary bodies, civic institutions and the company he served, as recorded in his biography. Recommendations and nominations are listed separately from awards received.</p>
+    </div>
+
+    <div class="featured">
+      <figure class="reveal img-reveal">
+        <img src="images/award-kempegowda.jpg" width="639" height="371" loading="lazy" alt="Munaf receiving the Nadaprabhu Kempegowda Award on stage" data-i18n-attr="alt:rec.f1Alt">
+        <figcaption>
+          <span class="yr">2018</span>
+          <h3 data-i18n="rec.f1h">Nadaprabhu Kempegowda Award</h3>
+          <p data-i18n="rec.f1">Bengaluru Mahanagara Palike — received from Mayor Shri Sampath Raj and Deputy Chief Minister Dr. G. Parameshwara.</p>
+        </figcaption>
+      </figure>
+      <figure class="reveal img-reveal">
+        <img src="images/award-chavundaraya.jpg" width="692" height="417" loading="lazy" alt="Recipients of the Chavundaraya Award with their citations" data-i18n-attr="alt:rec.f2Alt">
+        <figcaption>
+          <span class="yr">2020</span>
+          <h3 data-i18n="rec.f2h">Chavundaraya Award</h3>
+          <p data-i18n="rec.f2">Bengaluru District Kannada Sahitya Parishat.</p>
+        </figcaption>
+      </figure>
+      <figure class="reveal img-reveal">
+        <img src="images/award-ranna.jpg" width="642" height="412" loading="lazy" alt="Munaf receiving the Ranna Award from Meghamaitri Kannada Sahitya Sangha" data-i18n-attr="alt:rec.f3Alt">
+        <figcaption>
+          <span class="yr">2019</span>
+          <h3 data-i18n="rec.f3h">Kavichakravarthi Mahakavi Ranna Award</h3>
+          <p data-i18n="rec.f3">Meghamaitri Kannada Sahitya Sangha.</p>
+        </figcaption>
+      </figure>
+      <figure class="reveal img-reveal">
+        <img src="images/award-beml-lifetime.jpg" width="640" height="416" loading="lazy" alt="Former Prime Minister H.D. Deve Gowda presenting an award to Munaf" data-i18n-attr="alt:rec.f4Alt">
+        <figcaption>
+          <span class="yr">2016</span>
+          <h3 data-i18n="rec.f4h">Karmika Seva Ratna</h3>
+          <p data-i18n="rec.f4">BEML's Karnataka Rajyotsava award for lifetime achievement, presented by former Prime Minister Shri H.D. Deve Gowda.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="rec-cols">
+      <div class="reveal">
+        <h3 data-i18n="rec.listH">Awards received</h3>
+        <table class="awards">
+          <caption data-i18n="rec.caption">As listed in his biographical record, in chronological order.</caption>
+          <thead>
+            <tr><th scope="col" data-i18n="rec.thYear">Year</th><th scope="col" data-i18n="rec.thAward">Award</th><th scope="col" data-i18n="rec.thBy">Conferred by</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2015</td><td class="award-name" data-i18n="aw.1">Gunamatta Jyeshthata Puraskara</td><td class="by" data-i18n="aw.1b">BEML Limited</td></tr>
+            <tr><td>2016</td><td class="award-name" data-i18n="aw.2">Karmika Seva Ratna</td><td class="by" data-i18n="aw.2b">Karnataka Rajyotsava award, BEML Limited</td></tr>
+            <tr><td>2016</td><td class="award-name" data-i18n="aw.3">Kannada Paricharaka Prashasti</td><td class="by" data-i18n="aw.na">—</td></tr>
+            <tr><td>2016</td><td class="award-name" data-i18n="aw.4">Shankarnag Prashasti</td><td class="by" data-i18n="aw.4b">Akhila Karnataka Shankarnag Abhimanigala Sangha</td></tr>
+            <tr><td>2018</td><td class="award-name" data-i18n="aw.5">Nadaprabhu Kempegowda Prashasti</td><td class="by" data-i18n="aw.5b">Bengaluru Mahanagara Palike</td></tr>
+            <tr><td>2019</td><td class="award-name" data-i18n="aw.6">Kavichakravarthi Mahakavi Ranna Prashasti</td><td class="by" data-i18n="aw.6b">Meghamaitri Kannada Sahitya Sangha</td></tr>
+            <tr><td>2019</td><td class="award-name" data-i18n="aw.7">Kannada Seva Ratna</td><td class="by" data-i18n="aw.7b">Kannada Geleyara Balaga, Bengaluru</td></tr>
+            <tr><td>2019</td><td class="award-name" data-i18n="aw.8">Kuvempu Sahitya Ratna Prashasti</td><td class="by" data-i18n="aw.8b">Kuvempu Kalaniketana, Bengaluru</td></tr>
+            <tr><td>2020</td><td class="award-name" data-i18n="aw.9">Chavundaraya Prashasti</td><td class="by" data-i18n="aw.9b">Bengaluru District Kannada Sahitya Parishat</td></tr>
+            <tr><td>2021</td><td class="award-name" data-i18n="aw.10">Honorary Doctorate</td><td class="by" data-i18n="aw.10b">Asia Vedic Culture Research University</td></tr>
+            <tr><td>2021</td><td class="award-name" data-i18n="aw.11">Kalyana Ratna Prashasti</td><td class="by" data-i18n="aw.11b">Matrubhoomi Patrike, Lingasugur</td></tr>
+            <tr><td>2021</td><td class="award-name" data-i18n="aw.12">Kannada Manikya Prashasti</td><td class="by" data-i18n="aw.12b">Kannada Kriya Samiti, Karnataka State Road Transport Corporation, Bengaluru</td></tr>
+            <tr><td>2022</td><td class="award-name" data-i18n="aw.13">Kannada Ratna Prashasti</td><td class="by" data-i18n="aw.13b">Karnataka Vachana Sahitya Parishat</td></tr>
+            <tr><td>2022</td><td class="award-name" data-i18n="aw.14">Dasara Kavigoshti Prashasti</td><td class="by" data-i18n="aw.14b">Mysuru Dasara</td></tr>
+            <tr><td>2023</td><td class="award-name" data-i18n="aw.15">Karunada Chetana Prashasti</td><td class="by" data-i18n="aw.15b">Akhila Karnataka Kuvempu Samskrutika Vedike</td></tr>
+            <tr><td>2023</td><td class="award-name" data-i18n="aw.16">Nadaf/Pinjara Ratna — Dr. H. Ibrahim Prashasti</td><td class="by" data-i18n="aw.16b">Karnataka Rajya Nadaf/Pinjara Sangha</td></tr>
+            <tr><td>2023</td><td class="award-name" data-i18n="aw.17">Siddappaji Karmika Seva Ratna</td><td class="by" data-i18n="aw.na">—</td></tr>
+            <tr><td>2023</td><td class="award-name" data-i18n="aw.18">Gadinadu Hemmeya Kannadiga Prashasti</td><td class="by" data-i18n="aw.18b">Meghamaitri Sahitya Pratishthana</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div>
+        <div class="side-block reveal">
+          <h3 data-i18n="rec.otherH">Further honours</h3>
+          <ul>
+            <li data-i18n="rec.o1">Dr. A.P.J. Abdul Kalam honour from the International UNICE Council, conferred at its International Honorary Award Ceremony 2026.</li>
+            <li data-i18n="rec.o2">State-level “Raksha Ratna” award from Impana Media, at its fifth foundation-day celebration.</li>
+            <li data-i18n="rec.o3">Selected for the “Rashtriya Kavishreshtha” honour at the Kasaragod Dasara poets' meet, 2015–16.</li>
+            <li data-i18n="rec.o4">Dheemantha Kannadiga Prashasti.</li>
+            <li data-i18n="rec.o5">Felicitated by, among others, Kannada Sahitya Parishat president Dr. Manu Baligar, the Kannada Development Authority, Union Minister Shri Ananth Kumar, Justice (retd.) Santosh Hegde, Nadoja Dr. Siddalingaiah, BEML chairman Dr. Aprameyan and the Kannada Chutuku Sahitya Parishat.</li>
+          </ul>
+        </div>
+
+        <div class="side-block reveal">
+          <h3 data-i18n="rec.recH">Recommendations</h3>
+          <p class="note" data-i18n="rec.recNote">These are proposals and recommendations, not awards conferred.</p>
+          <ul>
+            <li><span class="tag" data-i18n="rec.tagRec">Recommended</span><span data-i18n="rec.r1">Prime Minister's Shram Awards (2016–17) — proposal and recommendation by BEML management.</span></li>
+            <li><span class="tag" data-i18n="rec.tagRec">Recommended</span><span data-i18n="rec.r2">Letter of recommendation for the Prime Minister's Shram Awards from Shri Dharmendra Pradhan to the Defence Minister, 2016.</span></li>
+            <li><span class="tag" data-i18n="rec.tagRec">Recommended</span><span data-i18n="rec.r3">Recommendation for recognition by the Controllerate of Quality Assurance (BEML), Ministry of Defence, 2015.</span></li>
+          </ul>
+        </div>
+
+        <div class="side-block reveal">
+          <h3 data-i18n="rec.invH">Literary platforms</h3>
+          <ul>
+            <li data-i18n="rec.i1">Horanadu Kannadigas' National Conference, New Delhi, 8–9 October 2016 — Kannada Sahitya Parishat with Indira Gandhi National Tribal University and Delhi Karnataka Sangha.</li>
+            <li data-i18n="rec.i2">Karnataka Sahitya Akademi's one-day study, dialogue and felicitation programme “Booker Banu Mushtaq”.</li>
+            <li data-i18n="rec.i3">Interview on DD Chandana, Kannada Doordarshan.</li>
+            <li data-i18n="rec.i4">Special invitee at district, state and national poets' meets and Kannada literary conferences.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     SOCIAL & CULTURAL CONTRIBUTIONS
+     ===================================================== -->
+<section id="contributions" aria-labelledby="contrib-title">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="con.eyebrow">Language, Culture &amp; Society</p>
+      <h2 class="section-title" id="contrib-title" data-i18n="con.title">Building places for Kannada</h2>
+    </div>
+
+    <div class="contrib">
+      <article class="reveal">
+        <h3 data-i18n="con.1h">Literary conferences in Sir C.V. Raman Nagar</h3>
+        <p data-i18n="con.1">As president of the Kannada Sahitya Parishat unit for the Sir C.V. Raman Nagar assembly constituency (2016–20), he organised two district-level Kannada literary conferences in an area largely home to workers from outside the Kannada-speaking community. Guests included Nadoja Dr. Siddalingaiah, Padma Shri Dr. Doddarangegowda, Dr. L. Hanumanthaiah and former Chief Secretary Dr. Chiranjeevi Singh. In his term the unit held more than 27 literary and cultural programmes — the most among the 28 constituency units of the Bengaluru district Parishat.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="con.2h">Kannada in schools</h3>
+        <p data-i18n="con.2">Through the “Kannada Kalika” initiative he took programmes such as “Kannadada Angaladalli Tingala Belaku” and “Sahitya Jyoti” — talks, poetry readings and discussions — to more than 30 schools and colleges, and honoured talented teachers and students.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="con.3h">Two community libraries</h3>
+        <p data-i18n="con.3">At the request of senior citizens and residents, he set up two libraries with about 3,000 books in the constituency, including one at New Thippasandra. Both continue to serve readers.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="con.4h">A statue of Dr. Rajkumar</h3>
+        <p data-i18n="con.4">He led the installation of a statue of Dr. Rajkumar near the new Baiyappanahalli railway station in Bengaluru, unveiled in the presence of Kannada activist Sa.Ra. Govindu and producer Chinnegowda.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="con.5h">Kannada movements</h3>
+        <p data-i18n="con.5">He has taken part in movements on the Kalasa–Banduri water-sharing question, against Hindi imposition, for implementation of the Sarojini Mahishi report and for Kannada in administration, and in the Cauvery agitation.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="con.6h">Service in hard times</h3>
+        <p data-i18n="con.6">During the COVID-19 pandemic he worked with partner organisations to distribute food to hundreds of people every day. He has helped 57 contract workers of modest means obtain driving training and licences, and joined environmental and communal-harmony campaigns.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="con.7h">A voice for his community</h3>
+        <p data-i18n="con.7">As state divisional vice-president of the Karnataka Rajya Nadaf/Pinjara Sangha, he travels across the state working for the educational, social and economic progress of the Nadaf/Pinjara community.</p>
+      </article>
+      <article class="reveal">
+        <h3 data-i18n="con.8h">On the stage</h3>
+        <p data-i18n="con.8">He has also performed in Kannada theatre, including the role of Arjuna in the play Sri Krishna Sandhana.</p>
+      </article>
+    </div>
+
+    <div class="contrib-photos">
+      <figure class="reveal img-reveal">
+        <img src="images/sammelana-procession.jpg" width="688" height="414" loading="lazy" alt="A long procession with drummers on a city road during the literary conference" data-i18n-attr="alt:g.processionAlt">
+        <figcaption data-i18n="g.procession">Procession of the Kannada literary conference, Sir C.V. Raman Nagar</figcaption>
+      </figure>
+      <figure class="reveal img-reveal">
+        <img src="images/library-inauguration.jpg" width="700" height="344" loading="lazy" alt="Munaf and others beside tables of books at the library opening" data-i18n-attr="alt:g.libraryAlt">
+        <figcaption data-i18n="g.library">Opening a new library at New Thippasandra</figcaption>
+      </figure>
+      <figure class="reveal img-reveal">
+        <img src="images/covid-relief.jpg" width="637" height="402" loading="lazy" alt="Volunteers in masks serving food from large vessels" data-i18n-attr="alt:g.covidAlt">
+        <figcaption data-i18n="g.covid">Food distribution during the COVID-19 pandemic</figcaption>
+      </figure>
+    </div>
+
+    <div class="roles reveal">
+      <h3 data-i18n="con.rolesH">Current roles</h3>
+      <ul>
+        <li><strong data-i18n="role.1t">President</strong><span data-i18n="role.1">Kannada Sahitya Parishat, Pulakeshinagar constituency, Bengaluru</span></li>
+        <li><strong data-i18n="role.1t">President</strong><span data-i18n="role.2">Karnataka Jnana Vijnana Samiti, Hebbal constituency, Bengaluru</span></li>
+        <li><strong data-i18n="role.1t">President</strong><span data-i18n="role.3">Kannada Janapada Parishat, Byatarayanapura constituency</span></li>
+        <li><strong data-i18n="role.4t">State Divisional Vice-President</strong><span data-i18n="role.4">Karnataka Rajya Nadaf/Pinjara Sangha</span></li>
+        <li><strong data-i18n="role.5t">Member</strong><span data-i18n="role.5">Kannada Jagruti Samiti, Kannada Development Authority</span></li>
+        <li><strong data-i18n="role.6t">Secretary</strong><span data-i18n="role.6">Federation of Kannada Sanghas in Karnataka's Industries and Commerce</span></li>
+        <li><strong data-i18n="role.7t">Honorary Adviser</strong><span data-i18n="role.7">Kannada Sahitya Parishat, Mahadevapura constituency</span></li>
+        <li><strong data-i18n="role.8t">Immediate Past President</strong><span data-i18n="role.8">Kannada Sahitya Parishat, Sir C.V. Raman Nagar</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     PHOTOGRAPHIC ARCHIVE
+     ===================================================== -->
+<section id="archive" aria-labelledby="archive-title">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="arc.eyebrow">Photographic Archive</p>
+      <h2 class="section-title" id="archive-title" data-i18n="arc.title">Moments from a working life</h2>
+      <p class="lead" data-i18n="arc.intro">Photographs from his biographical record. Select any image to view it larger.</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filter photographs" data-i18n-attr="aria-label:arc.filterAria">
+      <button type="button" data-filter="all" aria-pressed="true" data-i18n="arc.fAll">All</button>
+      <button type="button" data-filter="literary" aria-pressed="false" data-i18n="arc.fLit">Literary life</button>
+      <button type="button" data-filter="honours" aria-pressed="false" data-i18n="arc.fHon">Honours</button>
+      <button type="button" data-filter="community" aria-pressed="false" data-i18n="arc.fCom">Culture &amp; community</button>
+      <button type="button" data-filter="service" aria-pressed="false" data-i18n="arc.fSer">Professional service</button>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <!-- Literary life -->
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-nisar-ahmed.jpg" width="640" height="371" loading="lazy" alt="Munaf with Prof. K.S. Nisar Ahmed" data-i18n-attr="alt:g.nisarAlt"></button><figcaption data-i18n="g.nisar">With Nadoja Prof. K.S. Nisar Ahmed</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-doddarangegowda.jpg" width="688" height="371" loading="lazy" alt="Munaf with Dr. Doddarangegowda" data-i18n-attr="alt:g.doddaAlt"></button><figcaption data-i18n="g.dodda">With Padma Shri Dr. Doddarangegowda</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-siddalingaiah-kambar.jpg" width="681" height="371" loading="lazy" alt="Munaf with Dr. Siddalingaiah and Dr. Chandrashekhara Kambara" data-i18n-attr="alt:g.kambarAlt"></button><figcaption data-i18n="g.kambar">With Dr. Siddalingaiah and Dr. Chandrashekhara Kambara</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-baraguru.jpg" width="510" height="326" loading="lazy" alt="Munaf with Dr. Baraguru Ramachandrappa" data-i18n-attr="alt:g.baraguruAlt"></button><figcaption data-i18n="g.baraguru">With Dr. Baraguru Ramachandrappa</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-hampana.jpg" width="472" height="194" loading="lazy" alt="Munaf with Nadoja Ham.Pa.Na and Kamala Hampana" data-i18n-attr="alt:g.hampanaAlt"></button><figcaption data-i18n="g.hampana">With Nadoja Ham.Pa.Na and Kamala Hampana</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-cnr-rao.jpg" width="358" height="414" loading="lazy" alt="Munaf with Dr. C.N.R. Rao" data-i18n-attr="alt:g.cnrAlt"></button><figcaption data-i18n="g.cnr">With scientist and Bharat Ratna Dr. C.N.R. Rao</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-banu-mushtaq.jpg" width="243" height="285" loading="lazy" alt="Munaf with author Banu Mushtaq" data-i18n-attr="alt:g.banuAlt"></button><figcaption data-i18n="g.banu">With Booker Prize–winning author Banu Mushtaq</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-girish-kasaravalli.jpg" width="470" height="235" loading="lazy" alt="Munaf with Girish Kasaravalli" data-i18n-attr="alt:g.girishAlt"></button><figcaption data-i18n="g.girish">With film director Girish Kasaravalli</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/with-hamsalekha.jpg" width="616" height="442" loading="lazy" alt="Munaf with Hamsalekha" data-i18n-attr="alt:g.hamsaAlt"></button><figcaption data-i18n="g.hamsa">With music director Hamsalekha</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/release-bhavabanada-kusuma.jpg" width="689" height="372" loading="lazy" alt="Guests on stage holding copies of Bhavabanada Kusuma at its release" data-i18n-attr="alt:g.releaseAlt"></button><figcaption data-i18n="g.release">Release of Bhavabanada Kusuma by writer M.N. Vyasarao</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/chandana-interview.jpg" width="641" height="411" loading="lazy" alt="Munaf being interviewed in a television studio" data-i18n-attr="alt:g.chandanaAlt"></button><figcaption data-i18n="g.chandana">Interview on DD Chandana</figcaption></figure>
+      <figure data-cat="literary"><button class="g-btn" type="button"><img src="images/theatre-arjuna.jpg" width="959" height="639" loading="lazy" alt="Actors in costume on a theatre stage" data-i18n-attr="alt:g.theatreAlt"></button><figcaption data-i18n="g.theatre">As Arjuna in the play Sri Krishna Sandhana</figcaption></figure>
+
+      <!-- Honours -->
+      <figure data-cat="honours"><button class="g-btn" type="button"><img src="images/award-kempegowda.jpg" width="639" height="371" loading="lazy" alt="Munaf receiving the Nadaprabhu Kempegowda Award" data-i18n-attr="alt:rec.f1Alt"></button><figcaption data-i18n="g.kempegowda">Receiving the Nadaprabhu Kempegowda Award from Mayor Shri Sampath Raj and Deputy Chief Minister Dr. G. Parameshwara</figcaption></figure>
+      <figure data-cat="honours"><button class="g-btn" type="button"><img src="images/award-beml-lifetime.jpg" width="640" height="416" loading="lazy" alt="Former Prime Minister H.D. Deve Gowda presenting an award to Munaf" data-i18n-attr="alt:rec.f4Alt"></button><figcaption data-i18n="g.beml">Receiving the BEML lifetime achievement award from former Prime Minister Shri H.D. Deve Gowda</figcaption></figure>
+      <figure data-cat="honours"><button class="g-btn" type="button"><img src="images/award-chavundaraya.jpg" width="692" height="417" loading="lazy" alt="Recipients of the Chavundaraya Award with their citations" data-i18n-attr="alt:rec.f2Alt"></button><figcaption data-i18n="g.chavunda">Chavundaraya Award, Bengaluru District Kannada Sahitya Parishat</figcaption></figure>
+      <figure data-cat="honours"><button class="g-btn" type="button"><img src="images/award-ranna.jpg" width="642" height="412" loading="lazy" alt="Munaf receiving the Ranna Award" data-i18n-attr="alt:rec.f3Alt"></button><figcaption data-i18n="g.ranna">Kavichakravarthi Mahakavi Ranna Award, Meghamaitri Kannada Sahitya Sangha</figcaption></figure>
+      <figure data-cat="honours"><button class="g-btn" type="button"><img src="images/honour-siddalingaiah.jpg" width="640" height="393" loading="lazy" alt="Munaf being felicitated on stage" data-i18n-attr="alt:g.siddaAlt"></button><figcaption data-i18n="g.sidda">Felicitated by Dalit poet Dr. Siddalingaiah</figcaption></figure>
+      <figure data-cat="honours"><button class="g-btn" type="button"><img src="images/awards-collection.jpg" width="687" height="412" loading="lazy" alt="Shelves filled with trophies, plaques and citations" data-i18n-attr="alt:g.collectionAlt"></button><figcaption data-i18n="g.collection">His awards and honours</figcaption></figure>
+
+      <!-- Culture & community -->
+      <figure data-cat="community"><button class="g-btn" type="button"><img src="images/sammelana-procession.jpg" width="688" height="414" loading="lazy" alt="A procession with drummers on a city road" data-i18n-attr="alt:g.processionAlt"></button><figcaption data-i18n="g.procession">Procession of the Kannada literary conference, Sir C.V. Raman Nagar</figcaption></figure>
+      <figure data-cat="community"><button class="g-btn" type="button"><img src="images/sammelana-inauguration.jpg" width="640" height="415" loading="lazy" alt="Guests beating a dollu drum to open the conference" data-i18n-attr="alt:g.dolluAlt"></button><figcaption data-i18n="g.dollu">Opening the conference with the beat of the dollu</figcaption></figure>
+      <figure data-cat="community"><button class="g-btn" type="button"><img src="images/sammelana-address.jpg" width="683" height="418" loading="lazy" alt="Munaf speaking at a podium on the conference stage" data-i18n-attr="alt:g.addressAlt"></button><figcaption data-i18n="g.address">Welcome address by Munaf as unit president</figcaption></figure>
+      <figure data-cat="community"><button class="g-btn" type="button"><img src="images/rajkumar-jayanti.jpg" width="640" height="408" loading="lazy" alt="People garlanding a portrait of Dr. Rajkumar" data-i18n-attr="alt:g.rajAlt"></button><figcaption data-i18n="g.raj">Dr. Rajkumar Jayanti and the unveiling of his statue</figcaption></figure>
+      <figure data-cat="community"><button class="g-btn" type="button"><img src="images/library-inauguration.jpg" width="700" height="344" loading="lazy" alt="Tables of books at the library opening" data-i18n-attr="alt:g.libraryAlt"></button><figcaption data-i18n="g.library">Opening a new library at New Thippasandra</figcaption></figure>
+      <figure data-cat="community"><button class="g-btn" type="button"><img src="images/kannada-dharna.jpg" width="638" height="370" loading="lazy" alt="Participants seated at a sit-in with placards" data-i18n-attr="alt:g.dharnaAlt"></button><figcaption data-i18n="g.dharna">Sit-in urging implementation of the Sarojini Mahishi report</figcaption></figure>
+      <figure data-cat="community"><button class="g-btn" type="button"><img src="images/environment-campaign.jpg" width="683" height="411" loading="lazy" alt="Participants holding placards in a park" data-i18n-attr="alt:g.envAlt"></button><figcaption data-i18n="g.env">Environmental protection campaign</figcaption></figure>
+      <figure data-cat="community"><button class="g-btn" type="button"><img src="images/covid-relief.jpg" width="637" height="402" loading="lazy" alt="Volunteers serving food from large vessels" data-i18n-attr="alt:g.covidAlt"></button><figcaption data-i18n="g.covid">Food distribution during the COVID-19 pandemic</figcaption></figure>
+
+      <!-- Professional service -->
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-tawang-tatra.jpg" width="870" height="587" loading="lazy" alt="A Tatra truck on a snowy mountain road" data-i18n-attr="alt:g.tawangTAlt"></button><figcaption data-i18n="g.tawangT">BEML Tatra truck under quality trials, Tawang, Arunachal Pradesh</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-tawang-bofors.jpg" width="870" height="587" loading="lazy" alt="A Bofors gun and its towing truck in the mountains" data-i18n-attr="alt:service.momentAlt"></button><figcaption data-i18n="service.momentCap">Trials of a Bofors-towing Tatra truck at about 13,000 ft, Tawang, Arunachal Pradesh</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-tawang-soldiers.jpg" width="853" height="565" loading="lazy" alt="Munaf with a group of soldiers in the snow" data-i18n-attr="alt:g.tawangSAlt"></button><figcaption data-i18n="g.tawangS">With soldiers at an Army base in Tawang</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-kargil-road.jpg" width="1100" height="820" loading="lazy" alt="Munaf in the cab of a Tatra truck on a rocky mountain road" data-i18n-attr="alt:g.kargilRAlt"></button><figcaption data-i18n="g.kargilR">Testing a Tatra vehicle on a mountain road in the Kargil sector</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-kargil-soldiers.jpg" width="881" height="601" loading="lazy" alt="Munaf with soldiers in front of a Tatra truck" data-i18n-attr="alt:g.kargilSAlt"></button><figcaption data-i18n="g.kargilS">With Indian soldiers during Tatra trials at the Kargil base</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-khardung-la.jpg" width="876" height="581" loading="lazy" alt="Munaf beside the Khardung La road sign" data-i18n-attr="alt:g.khardungAlt"></button><figcaption data-i18n="g.khardung">At Khardung La (18,380 ft), during a technical training camp for soldiers</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-south-pullu.jpg" width="815" height="551" loading="lazy" alt="Munaf with soldiers at a high-altitude camp" data-i18n-attr="alt:g.pulluAlt"></button><figcaption data-i18n="g.pullu">Training camp for Army personnel at South Pullu (15,300 ft)</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-jodhpur.jpg" width="620" height="419" loading="lazy" alt="Munaf with soldiers beside Army vehicles in the desert" data-i18n-attr="alt:g.jodhpurAlt"></button><figcaption data-i18n="g.jodhpur">With soldiers at a Tatra trial and training camp in the Jodhpur desert</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-pokhran.jpg" width="887" height="588" loading="lazy" alt="Munaf standing in front of a large Army vehicle in the desert" data-i18n-attr="alt:g.pokhranAlt"></button><figcaption data-i18n="g.pokhran">At the Army camp in Pokhran, Jaisalmer district</figcaption></figure>
+      <figure data-cat="service"><button class="g-btn" type="button"><img src="images/service-desert-bofors.jpg" width="853" height="571" loading="lazy" alt="Munaf beside a Bofors gun in the desert" data-i18n-attr="alt:g.desertAlt"></button><figcaption data-i18n="g.desert">Beside a Bofors gun at a desert Army base in Rajasthan</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     CONTACT
+     ===================================================== -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+      <h2 class="section-title" id="contact-title" data-i18n="contact.title">For correspondence</h2>
+      <p class="prose muted" data-i18n="contact.text">For literary programmes, invitations or correspondence, Muhammad Munaf can be reached directly.</p>
+    </div>
+    <ul class="contact-list reveal">
+      <li><span data-i18n="contact.emailL">Email</span><a href="mailto:munaf.3657@gmail.com">munaf.3657@gmail.com</a></li>
+      <li><span data-i18n="contact.phoneL">Phone</span><a href="tel:+919742998519">+91 97429 98519</a></li>
+      <li><span data-i18n="contact.cityL">City</span><span style="all:unset" data-i18n="facts.home">Bengaluru, Karnataka</span></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <p class="footer-name" data-i18n="name">Muhammad Munaf</p>
+        <p class="footer-desc" data-i18n="footer.desc">Kannada poet and author · 34 years with BEML in service of India's defence</p>
+        <span class="ka-mark"><span class="bands" aria-hidden="true"><i></i><i></i></span><span data-i18n="footer.ka">Kannada · Karnataka</span></span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer" data-i18n-attr="aria-label:footer.navAria">
+        <ul>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#service" data-i18n="nav.service">Service</a></li>
+          <li><a href="#works" data-i18n="nav.works">Works</a></li>
+          <li><a href="#recognition" data-i18n="nav.recognition">Recognition</a></li>
+          <li><a href="#contributions" data-i18n="nav.contributions">Contributions</a></li>
+          <li><a href="#archive" data-i18n="nav.archive">Archive</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p style="margin:0" data-i18n="footer.source">Content drawn from Muhammad Munaf's biographical record.</p>
+      <a class="to-top" href="#top"><span aria-hidden="true">↑</span> <span data-i18n="footer.top">Back to top</span></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox (native dialog) -->
+<dialog class="lightbox" id="lightbox" aria-label="Photograph viewer" data-i18n-attr="aria-label:lb.aria">
+  <div class="lb-inner">
+    <img id="lb-img" src="" alt="">
+    <p class="lb-cap" id="lb-cap"></p>
+    <div class="lb-bar">
+      <button type="button" id="lb-prev" aria-label="Previous photograph" data-i18n-attr="aria-label:lb.prev">←</button>
+      <button type="button" id="lb-close" data-i18n="lb.close">Close</button>
+      <button type="button" id="lb-next" aria-label="Next photograph" data-i18n-attr="aria-label:lb.next">→</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+/* =========================================================
+   KANNADA DICTIONARY
+   English lives in the HTML itself (so the page reads fully
+   without JavaScript). On load, the English text of every
+   [data-i18n] element is captured; switching language swaps
+   between these two sources. Personal names, book titles and
+   award titles keep their original Kannada forms.
+   ========================================================= */
+const KN = {
+  "skip":"ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ತೆರಳಿ",
+  "brand.aria":"ಮುಹಮ್ಮದ್ ಮುನಾಫ್ — ಮುಖಪುಟ",
+  "name":"ಮುಹಮ್ಮದ್ ಮುನಾಫ್",
+  "descriptor":"ಕನ್ನಡ ಕವಿ ಮತ್ತು ಲೇಖಕ",
+  "nav.aria":"ಮುಖ್ಯ ಸಂಚಾರ",
+  "nav.about":"ಪರಿಚಯ",
+  "nav.service":"ವೃತ್ತಿ ಸೇವೆ",
+  "nav.works":"ಕೃತಿಗಳು",
+  "nav.recognition":"ಪುರಸ್ಕಾರಗಳು",
+  "nav.contributions":"ನಾಡು-ನುಡಿ ಸೇವೆ",
+  "nav.archive":"ಚಿತ್ರಸಂಗ್ರಹ",
+  "nav.contact":"ಸಂಪರ್ಕ",
+  "lang.aria":"ಕನ್ನಡ ಭಾಷೆ",
+  "menu.open":"ಮೆನು ತೆರೆಯಿರಿ",
+  "menu.close":"ಮೆನು ಮುಚ್ಚಿರಿ",
+
+  "hero.eyebrow":"ಕವಿ · ಲೇಖಕ · ಸಂಘಟಕ",
+  "hero.alt":"Muhammad Munaf",
+  "hero.intro":"ಚಿತ್ರದುರ್ಗ ಜಿಲ್ಲೆಯ ಪರಶುರಾಂಪುರದವರಾದ ಕನ್ನಡ ಕವಿ ಮತ್ತು ಲೇಖಕರು. ಬಿಇಎಂಎಲ್ ಸಂಸ್ಥೆಯಲ್ಲಿ 34 ವರ್ಷಗಳ ಕಾಲ ಸೇವೆ ಸಲ್ಲಿಸಿ, ಹಿಮಾಲಯದ ಎತ್ತರದ ಪ್ರದೇಶಗಳಿಂದ ರಾಜಸ್ಥಾನದ ಮರುಭೂಮಿಯವರೆಗೆ ಭಾರತೀಯ ಸೇನೆಯ ರಕ್ಷಣಾ ವಾಹನಗಳ ಪರೀಕ್ಷೆ ಮತ್ತು ನಿರ್ವಹಣೆಯಲ್ಲಿ ತೊಡಗಿಸಿಕೊಂಡವರು. ಎರಡು ದಶಕಗಳಿಂದ ಕನ್ನಡ ಸಾಹಿತ್ಯ, ನಾಡು-ನುಡಿ ಮತ್ತು ಸಮಾಜ ಸೇವೆಗೆ ತಮ್ಮನ್ನು ಅರ್ಪಿಸಿಕೊಂಡಿದ್ದಾರೆ.",
+  "hero.cta1":"ಅವರ ಬದುಕಿನ ಪಯಣ",
+  "hero.cta2":"ಸಾಹಿತ್ಯ ಕೃತಿಗಳು",
+  "hero.portraitAlt":"ಮುಹಮ್ಮದ್ ಮುನಾಫ್ ಅವರ ಭಾವಚಿತ್ರ",
+  "hero.portraitCap":"ಮುಹಮ್ಮದ್ ಮುನಾಫ್, ಬೆಂಗಳೂರು",
+  "facts.bornL":"ಜನನ",
+  "facts.born":"3 ಜೂನ್ 1957, ಪರಶುರಾಂಪುರ, ಚಳ್ಳಕೆರೆ ತಾಲ್ಲೂಕು, ಚಿತ್ರದುರ್ಗ ಜಿಲ್ಲೆ",
+  "facts.eduL":"ವಿದ್ಯಾರ್ಹತೆ",
+  "facts.edu":"ಮೆಕ್ಯಾನಿಕಲ್ ಇಂಜಿನಿಯರಿಂಗ್‌ನಲ್ಲಿ ಡಿಪ್ಲೊಮಾ; ಕನ್ನಡದಲ್ಲಿ ಎಂ.ಎ.",
+  "facts.careerL":"ವೃತ್ತಿ",
+  "facts.career":"ಬಿಇಎಂಎಲ್ ಲಿಮಿಟೆಡ್, 34 ವರ್ಷಗಳು; 30 ಜೂನ್ 2017ರಂದು ನಿವೃತ್ತಿ",
+  "facts.homeL":"ನೆಲೆ",
+  "facts.home":"ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ",
+
+  "about.eyebrow":"ಪರಿಚಯ",
+  "about.title":"ಸೇವೆ ಮತ್ತು ಸಾಹಿತ್ಯದ ಬದುಕು",
+  "about.p1":"ಎಂ.ಡಿ. ಮುನಾಫ್ ಎಂದೂ ಪರಿಚಿತರಾದ ಮುಹಮ್ಮದ್ ಮುನಾಫ್ ಅವರು ಚಿತ್ರದುರ್ಗ ಜಿಲ್ಲೆಯ ಚಳ್ಳಕೆರೆ ಸಮೀಪದ ಪರಶುರಾಂಪುರ ಗ್ರಾಮದ ಬಡ ಕುಟುಂಬದಲ್ಲಿ ಜನಿಸಿ, ಹಳ್ಳಿಯಲ್ಲಿಯೇ ವಿದ್ಯಾಭ್ಯಾಸ ಮುಗಿಸಿದರು. ಹೈಸ್ಕೂಲಿನಲ್ಲಿ ಓದುತ್ತಿದ್ದಾಗಲೇ ಸೈನಿಕನಾಗಿ ದೇಶಸೇವೆ ಮಾಡಬೇಕೆಂಬ ಹಂಬಲ ಅವರದಾಗಿತ್ತು. ನೇರವಾಗಿ ಸೈನ್ಯ ಸೇರಲು ಸಾಧ್ಯವಾಗದಿದ್ದರೂ, ಮುಂದೆ ಅವರ ವೃತ್ತಿಜೀವನವೇ ಅವರನ್ನು ದೇಶದ ಗಡಿಗಳಿಗೆ, ಸಶಸ್ತ್ರ ಪಡೆಗಳ ಸೇವೆಗೆ ಕರೆದೊಯ್ಯಿತು.",
+  "about.p2":"ಉದ್ಯೋಗ ಅರಸಿ ಬೆಂಗಳೂರಿಗೆ ಬಂದ ಅವರು, ರಕ್ಷಣಾ ಸಚಿವಾಲಯದ ಅಡಿಯಲ್ಲಿ ಬೃಹತ್ ರಕ್ಷಣಾ ಸಾಮಗ್ರಿಗಳು ಮತ್ತು ಮೆಟ್ರೋ ರೈಲುಗಳನ್ನು ತಯಾರಿಸುವ ಭಾರತ ಸರ್ಕಾರದ ಬಿಇಎಂಎಲ್ ಲಿಮಿಟೆಡ್ ಸಂಸ್ಥೆಯನ್ನು ಸೇರಿದರು. 34 ವರ್ಷಗಳ ಸೇವೆಯಲ್ಲಿ ರಕ್ಷಣಾ ವಹಿವಾಟು ಮತ್ತು ಸೇವಾ ವಿಭಾಗದ ಹಿರಿಯ ಅಧೀಕ್ಷಕರಾಗಿ, 30 ಜೂನ್ 2017ರಂದು ನಿವೃತ್ತರಾದರು.",
+  "about.p3":"ವೃತ್ತಿಜೀವನದ ಜೊತೆಜೊತೆಗೆ, ಬಾಲ್ಯದಲ್ಲೇ ಅಂಟಿದ ಸಾಹಿತ್ಯದ ನಂಟನ್ನು ಅವರು ಜೀವಂತವಾಗಿರಿಸಿಕೊಂಡರು. ಕಾವ್ಯ, ಗದ್ಯ, ರಂಗಭೂಮಿ, ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನಗಳು ಮತ್ತು ಕನ್ನಡ ಚಳುವಳಿಗಳ ಮೂಲಕ ಎರಡು ದಶಕಗಳಿಂದ ನಾಡು-ನುಡಿಯ ಸೇವೆ ಸಲ್ಲಿಸುತ್ತಿದ್ದಾರೆ. ಪ್ರವಾಸ ಕಥನ, ವ್ಯಕ್ತಿಚಿತ್ರ ಮತ್ತು ಕವನ ಕೃತಿಗಳನ್ನು ರಚಿಸುವುದರ ಜೊತೆಗೆ, ಇತರರು ಕನ್ನಡ ಸಾಹಿತ್ಯವನ್ನು ಸವಿಯಲು ವೇದಿಕೆಗಳನ್ನು ಕಟ್ಟಿದ್ದಾರೆ.",
+  "about.p4":"ನಾಡೋಜ ಪ್ರೊ. ಕೆ.ಎಸ್. ನಿಸಾರ್ ಅಹಮದ್, ಪದ್ಮಶ್ರೀ ಡಾ. ದೊಡ್ಡರಂಗೇಗೌಡ, ನಾಡೋಜ ಡಾ. ಸಿದ್ಧಲಿಂಗಯ್ಯ ಹಾಗೂ ಪ್ರೊ. ಹಿ.ಚಿ. ಬೋರಲಿಂಗಯ್ಯ ಅವರಂತಹ ಕನ್ನಡದ ಹಿರಿಯ ಸಾಹಿತಿಗಳು ಅವರ ಕಾರ್ಯವನ್ನು ಮೆಚ್ಚಿ ಬರೆದಿದ್ದಾರೆ.",
+  "about.quotesAria":"ಹಿರಿಯ ಸಾಹಿತಿಗಳ ನುಡಿಗಳು",
+  "about.q1by":"— ನಾಡೋಜ ಡಾ. ಸಿದ್ಧಲಿಂಗಯ್ಯ",
+  "about.q2by":"— ಪದ್ಮಶ್ರೀ ಡಾ. ದೊಡ್ಡರಂಗೇಗೌಡ",
+
+  "service.eyebrow":"ವೃತ್ತಿ ಪಯಣ",
+  "service.title":"ದೇಶದ ರಕ್ಷಣಾ ಕ್ಷೇತ್ರದಲ್ಲಿ 34 ವರ್ಷಗಳ ಸೇವೆ",
+  "service.intro":"ಬಿಇಎಂಎಲ್‌ನಲ್ಲಿ ಮುನಾಫ್ ಅವರ ಕಾರ್ಯ ಮುಖ್ಯವಾಗಿ ಸಂಸ್ಥೆ ನಿರ್ಮಿಸುವ ಟಟ್ರಾ ವಾಹನಗಳಿಗೆ ಸಂಬಂಧಿಸಿತ್ತು — 4×4 ರಿಂದ 12×12 ಮಾದರಿಗಳವರೆಗೆ, ಬೋಫೋರ್ಸ್ ಫಿರಂಗಿಗಳನ್ನು ಎಳೆಯುವ ಫೀಲ್ಡ್ ಆರ್ಟಿಲರಿ ಟ್ರಕ್‌ಗಳೂ ಸೇರಿದಂತೆ. ಪ್ರೂಫ್ ಆಪರೇಟರ್ ಮತ್ತು ಸೇವಾ ತಜ್ಞರಾಗಿ ಉತ್ಪಾದನಾ ಪರೀಕ್ಷೆ ಹಾಗೂ ಪ್ರಯೋಗಾರ್ಥ ಮೌಲ್ಯಮಾಪನಗಳಲ್ಲಿ ಪಾಲ್ಗೊಂಡು, ಸೇನಾ ಘಟಕಗಳು ಎದುರಿಸಿದ ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಿದರು ಮತ್ತು ಉಪಕರಣಗಳ ಬಳಕೆ ಹಾಗೂ ನಿರ್ವಹಣೆಯಲ್ಲಿ ಸಿಬ್ಬಂದಿಗೆ ತರಬೇತಿ ನೀಡಿದರು. ಅವರು ಸೇನೆಯ ಸದಸ್ಯರಾಗಿರದೆ, ರಕ್ಷಣಾ ವಲಯದ ಸಾರ್ವಜನಿಕ ಉದ್ದಿಮೆಯೊಂದರ ನಾಗರಿಕ ತಾಂತ್ರಿಕ ತಜ್ಞರಾಗಿ ಸೇವೆ ಸಲ್ಲಿಸಿದರು.",
+  "service.t1h":"ಹಿಮಾಲಯದ ಎತ್ತರಗಳಲ್ಲಿ",
+  "service.t1":"14,000 ರಿಂದ 19,000 ಅಡಿಗಳ ಎತ್ತರದಲ್ಲಿ, −18 °C ವರೆಗಿನ ಶೀತಲ ತಾಪಮಾನದಲ್ಲಿ ಸೇನಾ ಸಿಬ್ಬಂದಿಗೆ ತರಬೇತಿ ಮತ್ತು ದುರಸ್ತಿ ಶಿಬಿರಗಳು — ಸಿಯಾಚಿನ್ ಪ್ರದೇಶ, ಖಾರ್ದುಂಗ್‌ಲಾ, ಲೇಹ್–ಲಡಾಖ್, ನುಬ್ರಾ ಮತ್ತು ಹುಂಡರ್ ಕಣಿವೆಗಳು, ಕಾರ್ಗಿಲ್, ಸಿಕ್ಕಿಂ ಹಾಗೂ ಅರುಣಾಚಲ ಪ್ರದೇಶದ ಶೀಲಾಟಾಪ್ ಮತ್ತು ಜಸ್ವಂತ್‌ಗಢ್‌ನಲ್ಲಿ.",
+  "service.t2h":"ರಾಜಸ್ಥಾನದ ಮರುಭೂಮಿಯಲ್ಲಿ",
+  "service.t2":"ಜೋಧ್‌ಪುರ, ಜೈಸಲ್ಮೇರ್, ಪೋಖ್ರಾನ್, ಬಿಕಾನೇರ್, ನಸೀರಾಬಾದ್, ಗಂಗಾನಗರ ಮತ್ತು ಸೂರಜ್‌ಗಢ್ ಸೇನಾ ನೆಲೆಗಳಲ್ಲಿ, ಮರುಭೂಮಿಯ ತೀವ್ರ ಬಿಸಿಲಿನಲ್ಲಿ ವಾಹನ ಪರೀಕ್ಷೆ ಮತ್ತು ತರಬೇತಿ ಶಿಬಿರಗಳು.",
+  "service.t3h":"ದ್ವೀಪಗಳು ಮತ್ತು ಇತರೆಡೆ",
+  "service.t3":"ಅಂಡಮಾನ್ ಮತ್ತು ನಿಕೋಬಾರ್ ದ್ವೀಪಗಳ ರಕ್ಷಣಾ ನೆಲೆಗಳಿಗೆ — ಕಾರ್ ನಿಕೋಬಾರ್ ವಾಯುಪಡೆ ನಿಲ್ದಾಣವೂ ಸೇರಿದಂತೆ — ಸೇವಾ ಭೇಟಿಗಳು; ತಮಿಳುನಾಡಿನ ಕೂಡಂಕುಳಂ ಸೇರಿದಂತೆ ರೇಡಾರ್ ಉಪಕರಣಗಳ ದುರಸ್ತಿ ಮತ್ತು ತಾಂತ್ರಿಕ ತರಬೇತಿ.",
+  "service.momentAlt":"ತವಾಂಗ್‌ನ ಪರ್ವತ ಪ್ರದೇಶದಲ್ಲಿ ಬೋಫೋರ್ಸ್ ಫಿರಂಗಿ ಮತ್ತು ಅದನ್ನು ಎಳೆಯುವ ಟ್ರಕ್, ಸಮೀಪದಲ್ಲಿ ಯೋಧರು",
+  "service.momentCap":"ತವಾಂಗ್‌ನ ಸುಮಾರು 13,000 ಅಡಿ ಎತ್ತರದಲ್ಲಿ ಬೋಫೋರ್ಸ್ ಫಿರಂಗಿ ಎಳೆಯುವ ಟಟ್ರಾ ಟ್ರಕ್‌ನ ಪರೀಕ್ಷೆ, ಅರುಣಾಚಲ ಪ್ರದೇಶ",
+  "service.momentH":"ಶೀಲಾಟಾಪ್ ಬಳಿಯ ಆ ಕ್ಷಣ",
+  "service.moment":"2003ರಲ್ಲಿ ಅರುಣಾಚಲ ಪ್ರದೇಶದ ಹಿಮಾಚ್ಛಾದಿತ ತವಾಂಗ್ ಜಿಲ್ಲೆಯಲ್ಲಿ ಬೋಫೋರ್ಸ್ ಫಿರಂಗಿ ಎಳೆಯುವ ಟಟ್ರಾ ಟ್ರಕ್‌ನ ಗುಣಮಟ್ಟ ಪರೀಕ್ಷೆಯ ಸಂದರ್ಭದಲ್ಲಿ, ಶೀಲಾಟಾಪ್ ಬಳಿಯ ತಿರುವಿನಲ್ಲಿ ಸೇನಾ ಚಾಲಕನ ನಿಯಂತ್ರಣ ತಪ್ಪಿ ವಾಹನ ಪ್ರಪಾತಕ್ಕೆ ಬೀಳುವ ಹಂತದಲ್ಲಿತ್ತು. ಮುನಾಫ್ ಅವರ ತಕ್ಷಣದ ಸಮಯಪ್ರಜ್ಞೆಯಿಂದ ವಾಹನ ನಿಯಂತ್ರಣಕ್ಕೆ ಬಂದು, ಒಬ್ಬ ಮೇಜರ್ ಸೇರಿದಂತೆ ಏಳು ಸೇನಾ ಸಿಬ್ಬಂದಿಯ ಪ್ರಾಣ ಉಳಿಯಿತು. ಈ ಘಟನೆಯನ್ನು ಬಿಇಎಂಎಲ್ ಸಂಸ್ಥೆ 15 ಆಗಸ್ಟ್ 2013ರಂದು ನೀಡಿದ ಪ್ರಶಂಸಾ ಪ್ರಮಾಣಪತ್ರದಲ್ಲಿ ದಾಖಲಿಸಿದೆ.",
+  "service.lettersH":"ದಾಖಲಿತ ಪ್ರಶಂಸಾ ಪತ್ರಗಳು",
+  "service.lettersNote":"ಅವರ ಸ್ವವಿವರ ದಾಖಲೆಗಳಲ್ಲಿರುವ ಪತ್ರಗಳು ಮತ್ತು ಪ್ರಮಾಣಪತ್ರಗಳು.",
+  "service.l1":"ಸಿಕ್ಕಿಂನ ಭಾರತ–ಚೀನಾ ಗಡಿಯಲ್ಲಿರುವ ವಾಟರ್‌ಶೆಡ್ ಸ್ಮಾರಕ (15,700 ಅಡಿ) ಭೇಟಿ ಪ್ರಮಾಣಪತ್ರ — ಗ್ಯಾರಿಸನ್ ಕಮಾಂಡರ್ ಅವರಿಂದ.",
+  "service.l2":"ಬಿಇಎಂಎಲ್ ಲಿಮಿಟೆಡ್ ಪ್ರಶಂಸಾ ಪ್ರಮಾಣಪತ್ರ — ಎತ್ತರದ ಪ್ರದೇಶಗಳಲ್ಲಿನ ಪ್ರಯೋಗಾರ್ಥ ಪರೀಕ್ಷೆ ಹಾಗೂ ಶೀಲಾಟಾಪ್ ಬಳಿ ಏಳು ಸೇನಾ ಸಿಬ್ಬಂದಿಯ ಪ್ರಾಣ ರಕ್ಷಣೆಗಾಗಿ.",
+  "service.l3":"ಭಾರತೀಯ ವಾಯುಪಡೆಯ 151 ಸ್ಕ್ವಾಡ್ರನ್, ಕಾರ್ ನಿಕೋಬಾರ್ ಅವರಿಂದ ಪ್ರಶಂಸಾ ಪತ್ರ — ಘಟಕದ ಟಟ್ರಾ ವಾಹನಗಳನ್ನು ಸಂಪೂರ್ಣ ಕಾರ್ಯಕ್ಷಮಗೊಳಿಸಿದ್ದಕ್ಕಾಗಿ.",
+  "service.l4":"ರಕ್ಷಣಾ ಸಚಿವಾಲಯದ ಡಿಜಿಕ್ಯೂಎ ಅಡಿಯ ಗುಣಮಟ್ಟ ಭರವಸೆ ನಿಯಂತ್ರಣಾಲಯ (ಬಿಇಎಂಎಲ್) ಪತ್ರ — ಮೂರು ದಶಕಗಳ ಟಟ್ರಾ ಪರೀಕ್ಷೆ ಮತ್ತು ಸೇವೆಯನ್ನು ವಿವರಿಸಿ, ಅವರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬೇಕೆಂದು ಶಿಫಾರಸು.",
+  "service.l5":"ಭಾರತ್ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಲಿಮಿಟೆಡ್‌ನ ಆರ್ಮಿ ಆಕಾಶ್ ಯೋಜನೆ (ಮಿಸೈಲ್ ಸಿಸ್ಟಮ್ಸ್ ಘಟಕ) ಪ್ರಶಂಸೆ — ಯೋಜನೆಯಡಿ ಪೂರೈಸಲಾದ ಟಟ್ರಾ ವಾಹನಗಳಿಗೆ ತ್ವರಿತ ಸೇವೆಗಾಗಿ.",
+  "service.l6":"ಆಗಿನ ಪೆಟ್ರೋಲಿಯಂ ಮತ್ತು ನೈಸರ್ಗಿಕ ಅನಿಲ ಖಾತೆಯ ರಾಜ್ಯ ಸಚಿವ (ಸ್ವತಂತ್ರ ಹೊಣೆ) ಶ್ರೀ ಧರ್ಮೇಂದ್ರ ಪ್ರಧಾನ್ ಅವರು ರಕ್ಷಣಾ ಸಚಿವ ಶ್ರೀ ಮನೋಹರ್ ಪರಿಕ್ಕರ್ ಅವರಿಗೆ ಬರೆದ ಪತ್ರ — ಪ್ರಧಾನಮಂತ್ರಿ ಶ್ರಮ ಪ್ರಶಸ್ತಿಗೆ ಶಿಫಾರಸು.",
+
+  "works.eyebrow":"ಸಾಹಿತ್ಯ ಕೃತಿಗಳು",
+  "works.title":"ಕನ್ನಡ ಕೃತಿಗಳು",
+  "works.intro":"ಅವರ ಬರವಣಿಗೆ ದೇಶದ ಗಡಿಗಳಿಂದ ಮನದಾಳದವರೆಗೆ ಹರಡಿದೆ: ಹಿಮಾಲಯ ಮತ್ತು ಮರುಭೂಮಿಯ ಪಯಣಗಳ ಕಥನಗಳು, ಡಾ. ಎ.ಪಿ.ಜೆ. ಅಬ್ದುಲ್ ಕಲಾಂ ಅವರ ಕುರಿತ ಕೃತಿಗಳು ಮತ್ತು ಮೂರು ಕವನ ಸಂಕಲನಗಳು.",
+  "works.g1":"ಪ್ರವಾಸ, ಅನುಭವ ಕಥನ ಮತ್ತು ವ್ಯಕ್ತಿಚಿತ್ರ",
+  "works.g2":"ಕವನ ಸಂಕಲನಗಳು",
+  "works.g3":"ಇತರ ಕೃತಿಗಳು",
+  "works.b1Alt":"ಹಿಮಶೃಂಗ ಕೃತಿಯ ಮುಖಪುಟ",
+  "works.b1":"ಶ್ರೀನಗರ, ಖಾರ್ದುಂಗ್‌ಲಾ ಪಾಸ್ ಮತ್ತು ನುಬ್ರಾ ಕಣಿವೆಯ ಪಯಣಗಳ ರೋಚಕ ಹಾಗೂ ಸಂಕಷ್ಟಕರ ಅನುಭವಗಳನ್ನು ತೆರೆದಿಡುವ ಸಾಹಸಮಯ ಪ್ರವಾಸ ಕಥನ. ನಾಡೋಜ ಪ್ರೊ. ಕೆ.ಎಸ್. ನಿಸಾರ್ ಅಹಮದ್ ಅವರ ಹಾರೈಕೆಯ ನುಡಿಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.",
+  "works.b1m":"ಪ್ರವಾಸ ಕಥನ · ರೇಷ್ಮಾ ಪ್ರಕಾಶನ",
+  "works.b2":"ಹಿಮಾಲಯ ಮತ್ತು ಮರುಭೂಮಿ ಗಡಿಪ್ರದೇಶಗಳ ಅನುಭವಗಳನ್ನು, ವಿಶೇಷವಾಗಿ ಅರುಣಾಚಲ ಪ್ರದೇಶವನ್ನು ಕೇಂದ್ರವಾಗಿಸಿಕೊಂಡ ಅನುಭವ ಕಥನ.",
+  "works.b2m":"ಅನುಭವ ಕಥನ",
+  "works.b3Alt":"ಜನತಾ ರಾಷ್ಟ್ರಪತಿ ಡಾ. ಎ.ಪಿ.ಜೆ. ಅಬ್ದುಲ್ ಕಲಾಂ ಕೃತಿಯ ಮುಖಪುಟ",
+  "works.b3":"‘ಜನತಾ ರಾಷ್ಟ್ರಪತಿ’ ಡಾ. ಎ.ಪಿ.ಜೆ. ಅಬ್ದುಲ್ ಕಲಾಂ ಅವರ ವ್ಯಕ್ತಿಚಿತ್ರ.",
+  "works.b3m":"ವ್ಯಕ್ತಿಚಿತ್ರ · ರೇಷ್ಮಾ ಪ್ರಕಾಶನ",
+  "works.b4":"ಡಾ. ಎ.ಪಿ.ಜೆ. ಅಬ್ದುಲ್ ಕಲಾಂ ಅವರ ಕುರಿತ ಮತ್ತೊಂದು ಕೃತಿ.",
+  "works.b4m":"ಡಾ. ಕಲಾಂ ಕುರಿತು",
+  "works.b5Alt":"ಭಾವಬನದ ಕುಸುಮ ಕೃತಿಯ ಮುಖಪುಟ",
+  "works.b5":"ಕವನ ಸಂಕಲನ; ಖ್ಯಾತ ಸಾಹಿತಿ ಎಂ.ಎನ್. ವ್ಯಾಸರಾವ್ ಅವರಿಂದ ಬಿಡುಗಡೆಗೊಂಡಿತು.",
+  "works.b5m":"ಕವನ ಸಂಕಲನ · ರೇಷ್ಮಾ ಪ್ರಕಾಶನ",
+  "works.b6Alt":"ಭಾವ ಬಾಗೀನ ಕೃತಿಯ ಮುಖಪುಟ",
+  "works.b6":"ಕವನ ಸಂಕಲನ.",
+  "works.b6m":"ಕವನ ಸಂಕಲನ · ರೇಷ್ಮಾ ಪ್ರಕಾಶನ",
+  "works.b7":"ಕವನ ಸಂಕಲನ.",
+  "works.b7m":"ಕವನ ಸಂಕಲನ",
+  "works.b8Alt":"ಪರಿಸರ ಜಾಗೃತಿ ಕೃತಿಯ ಮುಖಪುಟ",
+  "works.b8":"ಪರಿಸರ ಜಾಗೃತಿ ಕುರಿತ ಕೃತಿ.",
+  "works.b8m":"ಪರಿಸರ · ರೇಷ್ಮಾ ಪ್ರಕಾಶನ",
+  "works.b9":"ಶಾಲಾ ಮಕ್ಕಳಿಗಾಗಿ ರಚಿಸಿದ ಕಿರುಕೃತಿ.",
+  "works.b9m":"ಮಕ್ಕಳಿಗಾಗಿ · 2024",
+
+  "rec.eyebrow":"ಪ್ರಶಸ್ತಿ ಮತ್ತು ಗೌರವಗಳು",
+  "rec.title":"ಸಂದ ಪುರಸ್ಕಾರಗಳು",
+  "rec.intro":"ಸಾಹಿತ್ಯ ಸಂಸ್ಥೆಗಳು, ನಾಗರಿಕ ಸಂಸ್ಥೆಗಳು ಮತ್ತು ಅವರು ಸೇವೆ ಸಲ್ಲಿಸಿದ ಸಂಸ್ಥೆಯಿಂದ ಸಂದ ಗೌರವಗಳು — ಅವರ ಸ್ವವಿವರದಲ್ಲಿ ದಾಖಲಾದಂತೆ. ಶಿಫಾರಸು ಮತ್ತು ಪ್ರಸ್ತಾವನೆಗಳನ್ನು ಸಂದ ಪ್ರಶಸ್ತಿಗಳಿಂದ ಪ್ರತ್ಯೇಕವಾಗಿ ನೀಡಲಾಗಿದೆ.",
+  "rec.f1Alt":"ವೇದಿಕೆಯಲ್ಲಿ ನಾಡಪ್ರಭು ಕೆಂಪೇಗೌಡ ಪ್ರಶಸ್ತಿ ಸ್ವೀಕರಿಸುತ್ತಿರುವ ಮುನಾಫ್",
+  "rec.f1h":"ನಾಡಪ್ರಭು ಕೆಂಪೇಗೌಡ ಪ್ರಶಸ್ತಿ",
+  "rec.f1":"ಬೆಂಗಳೂರು ಮಹಾನಗರ ಪಾಲಿಕೆ — ಮಹಾಪೌರ ಶ್ರೀ ಸಂಪತ್‌ರಾಜ್ ಮತ್ತು ಉಪಮುಖ್ಯಮಂತ್ರಿ ಡಾ. ಜಿ. ಪರಮೇಶ್ವರ್ ಅವರಿಂದ ಸ್ವೀಕಾರ.",
+  "rec.f2Alt":"ಚಾವುಂಡರಾಯ ಪ್ರಶಸ್ತಿ ಪುರಸ್ಕೃತರು ಸನ್ಮಾನ ಪತ್ರಗಳೊಂದಿಗೆ",
+  "rec.f2h":"ಚಾವುಂಡರಾಯ ಪ್ರಶಸ್ತಿ",
+  "rec.f2":"ಬೆಂಗಳೂರು ಜಿಲ್ಲಾ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು.",
+  "rec.f3Alt":"ಮೇಘಮೈತ್ರಿ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಘದಿಂದ ರನ್ನ ಪ್ರಶಸ್ತಿ ಸ್ವೀಕರಿಸುತ್ತಿರುವ ಮುನಾಫ್",
+  "rec.f3h":"ಕವಿಚಕ್ರವರ್ತಿ ಮಹಾಕವಿ ರನ್ನ ಪ್ರಶಸ್ತಿ",
+  "rec.f3":"ಮೇಘಮೈತ್ರಿ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಘ.",
+  "rec.f4Alt":"ಮಾಜಿ ಪ್ರಧಾನಮಂತ್ರಿ ಹೆಚ್.ಡಿ. ದೇವೇಗೌಡ ಅವರು ಮುನಾಫ್ ಅವರಿಗೆ ಪ್ರಶಸ್ತಿ ನೀಡುತ್ತಿರುವುದು",
+  "rec.f4h":"ಕಾರ್ಮಿಕ ಸೇವಾ ರತ್ನ",
+  "rec.f4":"ಜೀವಮಾನ ಸಾಧನೆಗಾಗಿ ಬಿಇಎಂಎಲ್‌ನ ಕರ್ನಾಟಕ ರಾಜ್ಯೋತ್ಸವ ಪ್ರಶಸ್ತಿ; ಮಾಜಿ ಪ್ರಧಾನಮಂತ್ರಿ ಶ್ರೀ ಹೆಚ್.ಡಿ. ದೇವೇಗೌಡ ಅವರಿಂದ ಪ್ರದಾನ.",
+  "rec.listH":"ಸಂದ ಪ್ರಶಸ್ತಿಗಳು",
+  "rec.caption":"ಅವರ ಸ್ವವಿವರದಲ್ಲಿ ದಾಖಲಾದಂತೆ, ಕಾಲಾನುಕ್ರಮದಲ್ಲಿ.",
+  "rec.thYear":"ವರ್ಷ",
+  "rec.thAward":"ಪ್ರಶಸ್ತಿ",
+  "rec.thBy":"ನೀಡಿದವರು",
+  "aw.na":"—",
+  "aw.1":"ಗುಣಮಟ್ಟ ಜ್ಯೇಷ್ಠತಾ ಪುರಸ್ಕಾರ","aw.1b":"ಬಿಇಎಂಎಲ್ ಸಂಸ್ಥೆ",
+  "aw.2":"ಕಾರ್ಮಿಕ ಸೇವಾ ರತ್ನ","aw.2b":"ಕರ್ನಾಟಕ ರಾಜ್ಯೋತ್ಸವ ಪ್ರಶಸ್ತಿ, ಬಿಇಎಂಎಲ್ ಸಂಸ್ಥೆ",
+  "aw.3":"ಕನ್ನಡ ಪರಿಚಾರಕ ಪ್ರಶಸ್ತಿ",
+  "aw.4":"ಶಂಕರ್‌ನಾಗ್ ಪ್ರಶಸ್ತಿ","aw.4b":"ಅಖಿಲ ಕರ್ನಾಟಕ ಶಂಕರ್‌ನಾಗ್ ಅಭಿಮಾನಿಗಳ ಸಂಘ",
+  "aw.5":"ನಾಡಪ್ರಭು ಕೆಂಪೇಗೌಡ ಪ್ರಶಸ್ತಿ","aw.5b":"ಬೆಂಗಳೂರು ಮಹಾನಗರ ಪಾಲಿಕೆ",
+  "aw.6":"ಕವಿಚಕ್ರವರ್ತಿ ಮಹಾಕವಿ ರನ್ನ ಪ್ರಶಸ್ತಿ","aw.6b":"ಮೇಘಮೈತ್ರಿ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಘ",
+  "aw.7":"ಕನ್ನಡ ಸೇವಾ ರತ್ನ","aw.7b":"ಕನ್ನಡ ಗೆಳೆಯರ ಬಳಗ, ಬೆಂಗಳೂರು",
+  "aw.8":"ಕುವೆಂಪು ಸಾಹಿತ್ಯ ರತ್ನ ಪ್ರಶಸ್ತಿ","aw.8b":"ಕುವೆಂಪು ಕಲಾನಿಕೇತನ, ಬೆಂಗಳೂರು",
+  "aw.9":"ಚಾವುಂಡರಾಯ ಪ್ರಶಸ್ತಿ","aw.9b":"ಬೆಂಗಳೂರು ಜಿಲ್ಲಾ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು",
+  "aw.10":"ಗೌರವ ಡಾಕ್ಟರೇಟ್","aw.10b":"ಏಷಿಯಾ ವೇದಿಕ್ ಕಲ್ಚರ್ ರಿಸರ್ಚ್ ಯುನಿವರ್ಸಿಟಿ",
+  "aw.11":"ಕಲ್ಯಾಣ ರತ್ನ ಪ್ರಶಸ್ತಿ","aw.11b":"ಮಾತೃಭೂಮಿ ಪತ್ರಿಕೆ, ಲಿಂಗಸಗೂರು",
+  "aw.12":"ಕನ್ನಡ ಮಾಣಿಕ್ಯ ಪ್ರಶಸ್ತಿ","aw.12b":"ಕನ್ನಡ ಕ್ರಿಯಾ ಸಮಿತಿ, ಕರ್ನಾಟಕ ರಸ್ತೆ ಸಾರಿಗೆ ಸಂಸ್ಥೆ, ಬೆಂಗಳೂರು",
+  "aw.13":"ಕನ್ನಡ ರತ್ನ ಪ್ರಶಸ್ತಿ","aw.13b":"ಕರ್ನಾಟಕ ವಚನ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು",
+  "aw.14":"ದಸರಾ ಕವಿಗೋಷ್ಠಿ ಪ್ರಶಸ್ತಿ","aw.14b":"ವಿಶ್ವವಿಖ್ಯಾತ ಮೈಸೂರು ದಸರಾ",
+  "aw.15":"ಕರುನಾಡ ಚೇತನ ಪ್ರಶಸ್ತಿ","aw.15b":"ಅಖಿಲ ಕರ್ನಾಟಕ ಕುವೆಂಪು ಸಾಂಸ್ಕೃತಿಕ ವೇದಿಕೆ",
+  "aw.16":"ನದಾಫ್/ಪಿಂಜಾರ ರತ್ನ — ಡಾ. ಹೆಚ್. ಇಬ್ರಾಹಿಂ ಪ್ರಶಸ್ತಿ","aw.16b":"ಕರ್ನಾಟಕ ರಾಜ್ಯ ನದಾಫ್/ಪಿಂಜಾರ ಸಂಘ",
+  "aw.17":"ಸಿದ್ದಪ್ಪಾಜಿ ಕಾರ್ಮಿಕ ಸೇವಾ ರತ್ನ",
+  "aw.18":"ಗಡಿನಾಡು ಹೆಮ್ಮೆಯ ಕನ್ನಡಿಗ ಪ್ರಶಸ್ತಿ","aw.18b":"ಮೇಘಮೈತ್ರಿ ಸಾಹಿತ್ಯ ಪ್ರತಿಷ್ಠಾನ",
+  "rec.otherH":"ಇತರ ಗೌರವಗಳು",
+  "rec.o1":"ಅಂತಾರಾಷ್ಟ್ರೀಯ ಯುನಿಕ್ ಕೌನ್ಸಿಲ್ ವತಿಯಿಂದ ಡಾ. ಎ.ಪಿ.ಜೆ. ಅಬ್ದುಲ್ ಕಲಾಂ ಗೌರವ ಪ್ರಶಸ್ತಿ — ಅಂತಾರಾಷ್ಟ್ರೀಯ ಗೌರವ ಪ್ರಶಸ್ತಿ ಪ್ರದಾನ ಸಮಾರಂಭ 2026ರಲ್ಲಿ.",
+  "rec.o2":"ಇಂಪನಾ ಮೀಡಿಯಾ ಸಂಸ್ಥೆಯ 5ನೇ ಸಂಸ್ಥಾಪನಾ ದಿನಾಚರಣೆಯಲ್ಲಿ ರಾಜ್ಯಮಟ್ಟದ ‘ರಕ್ಷಾ ರತ್ನ’ ಪ್ರಶಸ್ತಿ.",
+  "rec.o3":"2015–16ರಲ್ಲಿ ಗಡಿನಾಡು ಕಾಸರಗೋಡು ದಸರಾ ಕವಿಗೋಷ್ಠಿಯಲ್ಲಿ ‘ರಾಷ್ಟ್ರೀಯ ಕವಿಶ್ರೇಷ್ಠ’ ಪ್ರಶಸ್ತಿಗೆ ಆಯ್ಕೆ.",
+  "rec.o4":"ಧೀಮಂತ ಕನ್ನಡಿಗ ಪ್ರಶಸ್ತಿ.",
+  "rec.o5":"ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ ಅಧ್ಯಕ್ಷ ಡಾ. ಮನು ಬಳಿಗಾರ್, ಕನ್ನಡ ಅಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರ, ಕೇಂದ್ರ ಸಚಿವ ಶ್ರೀ ಅನಂತ್ ಕುಮಾರ್, ನಿವೃತ್ತ ನ್ಯಾಯಮೂರ್ತಿ ಸಂತೋಷ್ ಹೆಗ್ಡೆ, ನಾಡೋಜ ಡಾ. ಸಿದ್ಧಲಿಂಗಯ್ಯ, ಬಿಇಎಂಎಲ್ ಅಧ್ಯಕ್ಷ ಡಾ. ಅಪ್ರಮೇಯನ್ ಹಾಗೂ ಕನ್ನಡ ಚುಟುಕು ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು ಸೇರಿದಂತೆ ಅನೇಕರಿಂದ ಗೌರವ ಸನ್ಮಾನ.",
+  "rec.recH":"ಶಿಫಾರಸುಗಳು",
+  "rec.recNote":"ಇವು ಪ್ರಸ್ತಾವನೆ ಮತ್ತು ಶಿಫಾರಸುಗಳು; ಸಂದ ಪ್ರಶಸ್ತಿಗಳಲ್ಲ.",
+  "rec.tagRec":"ಶಿಫಾರಸು",
+  "rec.r1":"ಪ್ರಧಾನಮಂತ್ರಿ ರಾಷ್ಟ್ರೀಯ ಶ್ರಮರತ್ನ ಪ್ರಶಸ್ತಿ (2016–17) — ಬಿಇಎಂಎಲ್ ಆಡಳಿತ ಮಂಡಳಿಯಿಂದ ಪ್ರಸ್ತಾವನೆ ಮತ್ತು ಶಿಫಾರಸು.",
+  "rec.r2":"ಪ್ರಧಾನಮಂತ್ರಿ ಶ್ರಮ ಪ್ರಶಸ್ತಿಗಾಗಿ ಶ್ರೀ ಧರ್ಮೇಂದ್ರ ಪ್ರಧಾನ್ ಅವರು ರಕ್ಷಣಾ ಸಚಿವರಿಗೆ ಬರೆದ ಶಿಫಾರಸು ಪತ್ರ, 2016.",
+  "rec.r3":"ರಕ್ಷಣಾ ಸಚಿವಾಲಯದ ಗುಣಮಟ್ಟ ಭರವಸೆ ನಿಯಂತ್ರಣಾಲಯ (ಬಿಇಎಂಎಲ್) ಅವರಿಂದ ಮಾನ್ಯತೆಗಾಗಿ ಶಿಫಾರಸು, 2015.",
+  "rec.invH":"ಸಾಹಿತ್ಯ ವೇದಿಕೆಗಳು",
+  "rec.i1":"ಹೊರನಾಡು ಕನ್ನಡಿಗರ ರಾಷ್ಟ್ರೀಯ ಸಮ್ಮೇಳನ, ನವದೆಹಲಿ, 8–9 ಅಕ್ಟೋಬರ್ 2016 — ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು, ಇಂದಿರಾ ಗಾಂಧಿ ರಾಷ್ಟ್ರೀಯ ಬುಡಕಟ್ಟು ವಿಶ್ವವಿದ್ಯಾಲಯ ಮತ್ತು ದೆಹಲಿ ಕರ್ನಾಟಕ ಸಂಘದ ಸಹಯೋಗದಲ್ಲಿ.",
+  "rec.i2":"ಕರ್ನಾಟಕ ಸಾಹಿತ್ಯ ಅಕಾಡೆಮಿಯ ‘ಬುಕರ್ ಬಾನು ಮುಷ್ತಾಕ್’ ಒಂದು ದಿನದ ಅಧ್ಯಯನ, ಸಂವಾದ ಮತ್ತು ಅಭಿನಂದನಾ ಕಾರ್ಯಕ್ರಮ.",
+  "rec.i3":"ಕನ್ನಡ ದೂರದರ್ಶನ ಚಂದನ ವಾಹಿನಿಯಲ್ಲಿ ಸಂದರ್ಶನ.",
+  "rec.i4":"ಜಿಲ್ಲೆ, ರಾಜ್ಯ ಮತ್ತು ರಾಷ್ಟ್ರಮಟ್ಟದ ಕವಿಗೋಷ್ಠಿಗಳು ಹಾಗೂ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನಗಳಲ್ಲಿ ವಿಶೇಷ ಆಹ್ವಾನಿತರಾಗಿ ಭಾಗವಹಿಸುವಿಕೆ.",
+
+  "con.eyebrow":"ನಾಡು, ನುಡಿ ಮತ್ತು ಸಮಾಜ",
+  "con.title":"ಕನ್ನಡಕ್ಕೆ ನೆಲೆ ಕಟ್ಟಿದ ಕಾಯಕ",
+  "con.1h":"ಸರ್ ಸಿ.ವಿ. ರಾಮನ್ ನಗರದಲ್ಲಿ ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನಗಳು",
+  "con.1":"ಸರ್ ಸಿ.ವಿ. ರಾಮನ್ ನಗರ ವಿಧಾನಸಭಾ ಕ್ಷೇತ್ರದ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತಿನ ಅಧ್ಯಕ್ಷರಾಗಿ (2016–20), ಬಹುತೇಕ ಕನ್ನಡೇತರ ಕಾರ್ಮಿಕರು ನೆಲೆಸಿರುವ ಈ ಪ್ರದೇಶದಲ್ಲಿ ಎರಡು ಜಿಲ್ಲಾ ಮಟ್ಟದ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನಗಳನ್ನು ಆಯೋಜಿಸಿದರು. ನಾಡೋಜ ಡಾ. ಸಿದ್ಧಲಿಂಗಯ್ಯ, ಪದ್ಮಶ್ರೀ ಡಾ. ದೊಡ್ಡರಂಗೇಗೌಡ, ಡಾ. ಎಲ್. ಹನುಮಂತಯ್ಯ ಹಾಗೂ ವಿಶ್ರಾಂತ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ ಡಾ. ಚಿರಂಜೀವಿ ಸಿಂಗ್ ಮೊದಲಾದ ಗಣ್ಯರು ಪಾಲ್ಗೊಂಡರು. ಅವರ ಅವಧಿಯಲ್ಲಿ ಈ ಘಟಕ 27ಕ್ಕೂ ಹೆಚ್ಚು ಸಾಹಿತ್ಯ-ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ನಡೆಸಿ, ಬೆಂಗಳೂರು ಜಿಲ್ಲಾ ಪರಿಷತ್ತಿನ 28 ಕ್ಷೇತ್ರಗಳಲ್ಲೇ ಅತಿ ಹೆಚ್ಚು ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ನಡೆಸಿದ ಹೆಗ್ಗಳಿಕೆ ಪಡೆಯಿತು.",
+  "con.2h":"ಶಾಲೆಗಳಲ್ಲಿ ಕನ್ನಡ",
+  "con.2":"‘ಕನ್ನಡ ಕಲಿಕಾ’ ಕಾರ್ಯಕ್ರಮದ ಮೂಲಕ 30ಕ್ಕೂ ಹೆಚ್ಚು ಶಾಲಾ-ಕಾಲೇಜುಗಳಲ್ಲಿ ‘ಕನ್ನಡದ ಅಂಗಳದಲ್ಲಿ ತಿಂಗಳ ಬೆಳಕು’, ‘ಸಾಹಿತ್ಯ ಜ್ಯೋತಿ’ ಮುಂತಾದ ವಿಚಾರಗೋಷ್ಠಿ, ಕಾವ್ಯಗೋಷ್ಠಿ ಮತ್ತು ಸಂವಾದಗಳನ್ನು ಹಮ್ಮಿಕೊಂಡರು; ಪ್ರತಿಭಾವಂತ ಶಿಕ್ಷಕರು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಗೌರವಿಸಿದರು.",
+  "con.3h":"ಎರಡು ಸಾರ್ವಜನಿಕ ಗ್ರಂಥಾಲಯಗಳು",
+  "con.3":"ಹಿರಿಯ ನಾಗರಿಕರು ಮತ್ತು ಸಾರ್ವಜನಿಕರ ಕೋರಿಕೆಯ ಮೇರೆಗೆ, ಹೊಸ ತಿಪ್ಪಸಂದ್ರದ ಗ್ರಂಥಾಲಯವೂ ಸೇರಿದಂತೆ ಸುಮಾರು 3,000 ಪುಸ್ತಕಗಳ ಎರಡು ಗ್ರಂಥಾಲಯಗಳನ್ನು ಕ್ಷೇತ್ರದಲ್ಲಿ ಸ್ಥಾಪಿಸಿದರು. ಅವು ಇಂದಿಗೂ ಓದುಗರಿಗೆ ಸೇವೆ ನೀಡುತ್ತಿವೆ.",
+  "con.4h":"ಡಾ. ರಾಜಕುಮಾರ್ ಪುತ್ಥಳಿ",
+  "con.4":"ಬೆಂಗಳೂರಿನ ಹೊಸ ಬೈಯಪ್ಪನಹಳ್ಳಿ ರೈಲು ನಿಲ್ದಾಣದ ಬಳಿ ನಟಸಾರ್ವಭೌಮ ಡಾ. ರಾಜಕುಮಾರ್ ಅವರ ಪುತ್ಥಳಿ ನಿರ್ಮಾಣದ ನೇತೃತ್ವ ವಹಿಸಿದರು; ಕನ್ನಡ ಹೋರಾಟಗಾರ ಸಾ.ರಾ. ಗೋವಿಂದು ಮತ್ತು ನಿರ್ಮಾಪಕ ಚಿನ್ನೇಗೌಡ ಅವರ ಉಪಸ್ಥಿತಿಯಲ್ಲಿ ಅನಾವರಣಗೊಂಡಿತು.",
+  "con.5h":"ಕನ್ನಡ ಚಳುವಳಿಗಳು",
+  "con.5":"ಕಳಸಾ–ಬಂಡೂರಿ ನದಿ ನೀರಿನ ಹಂಚಿಕೆ, ಹಿಂದಿ ಹೇರಿಕೆಯ ವಿರುದ್ಧ, ಸರೋಜಿನಿ ಮಹಿಷಿ ವರದಿ ಅನುಷ್ಠಾನ ಮತ್ತು ಆಡಳಿತದಲ್ಲಿ ಕನ್ನಡ ಪರವಾದ ಚಳುವಳಿಗಳಲ್ಲಿ ಹಾಗೂ ಕಾವೇರಿ ಹೋರಾಟದಲ್ಲಿ ಭಾಗವಹಿಸಿದ್ದಾರೆ.",
+  "con.6h":"ಸಂಕಷ್ಟದ ದಿನಗಳಲ್ಲಿ ಸೇವೆ",
+  "con.6":"ಕೋವಿಡ್ ಸಂದರ್ಭದಲ್ಲಿ ಮಿತ್ರ ಸಂಘಟನೆಗಳ ಸಹಕಾರದೊಂದಿಗೆ ಪ್ರತಿನಿತ್ಯ ನೂರಾರು ಜನರಿಗೆ ಆಹಾರ ವಿತರಿಸಿದರು. 57 ಬಡ ಗುತ್ತಿಗೆ ಕಾರ್ಮಿಕರಿಗೆ ವಾಹನ ಚಾಲನಾ ತರಬೇತಿ ಮತ್ತು ಚಾಲನಾ ಪರವಾನಗಿ ಪಡೆಯಲು ನೆರವಾದರು; ಪರಿಸರ ಸಂರಕ್ಷಣೆ ಮತ್ತು ಭಾವೈಕ್ಯತಾ ಅಭಿಯಾನಗಳಲ್ಲಿ ಪಾಲ್ಗೊಂಡಿದ್ದಾರೆ.",
+  "con.7h":"ಸಮುದಾಯದ ಧ್ವನಿಯಾಗಿ",
+  "con.7":"ಕರ್ನಾಟಕ ರಾಜ್ಯ ನದಾಫ್/ಪಿಂಜಾರ ಸಂಘದ ರಾಜ್ಯ ವಿಭಾಗೀಯ ಉಪಾಧ್ಯಕ್ಷರಾಗಿ, ನದಾಫ್/ಪಿಂಜಾರ ಸಮುದಾಯದ ಶೈಕ್ಷಣಿಕ, ಸಾಮಾಜಿಕ ಮತ್ತು ಆರ್ಥಿಕ ಏಳಿಗೆಗಾಗಿ ರಾಜ್ಯಾದ್ಯಂತ ಸಂಚರಿಸಿ ಶ್ರಮಿಸುತ್ತಿದ್ದಾರೆ.",
+  "con.8h":"ರಂಗಭೂಮಿಯಲ್ಲಿ",
+  "con.8":"ಕನ್ನಡ ರಂಗಭೂಮಿಯಲ್ಲೂ ಅಭಿನಯಿಸಿದ್ದಾರೆ; ‘ಶ್ರೀಕೃಷ್ಣ ಸಂಧಾನ’ ನಾಟಕದಲ್ಲಿ ಅರ್ಜುನನ ಪಾತ್ರಧಾರಿಯಾಗಿ ಕಾಣಿಸಿಕೊಂಡಿದ್ದಾರೆ.",
+  "con.rolesH":"ಪ್ರಸ್ತುತ ಜವಾಬ್ದಾರಿಗಳು",
+  "role.1t":"ಅಧ್ಯಕ್ಷರು",
+  "role.1":"ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು, ಪುಲಕೇಶಿನಗರ ವಿಧಾನಸಭಾ ಕ್ಷೇತ್ರ, ಬೆಂಗಳೂರು",
+  "role.2":"ಕರ್ನಾಟಕ ಜ್ಞಾನ ವಿಜ್ಞಾನ ಸಮಿತಿ, ಹೆಬ್ಬಾಳ ವಿಧಾನಸಭಾ ಕ್ಷೇತ್ರ, ಬೆಂಗಳೂರು",
+  "role.3":"ಕನ್ನಡ ಜಾನಪದ ಪರಿಷತ್ತು, ಬ್ಯಾಟರಾಯನಪುರ ವಿಧಾನಸಭಾ ಕ್ಷೇತ್ರ",
+  "role.4t":"ರಾಜ್ಯ ವಿಭಾಗೀಯ ಉಪಾಧ್ಯಕ್ಷರು",
+  "role.4":"ಕರ್ನಾಟಕ ರಾಜ್ಯ ನದಾಫ್/ಪಿಂಜಾರ ಸಂಘ",
+  "role.5t":"ಸದಸ್ಯರು",
+  "role.5":"ಕನ್ನಡ ಜಾಗೃತಿ ಸಮಿತಿ, ಕನ್ನಡ ಅಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರ",
+  "role.6t":"ಕಾರ್ಯದರ್ಶಿ",
+  "role.6":"ಕರ್ನಾಟಕ ಕೈಗಾರಿಕೆ ಮತ್ತು ವಾಣಿಜ್ಯೋದ್ಯಮ ಕನ್ನಡ ಸಂಘಗಳ ಒಕ್ಕೂಟ",
+  "role.7t":"ಗೌರವ ಸಲಹೆಗಾರರು",
+  "role.7":"ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು, ಮಹದೇವಪುರ ವಿಧಾನಸಭಾ ಕ್ಷೇತ್ರ",
+  "role.8t":"ನಿಕಟಪೂರ್ವ ಅಧ್ಯಕ್ಷರು",
+  "role.8":"ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು, ಸರ್ ಸಿ.ವಿ. ರಾಮನ್ ನಗರ",
+
+  "arc.eyebrow":"ಚಿತ್ರಸಂಗ್ರಹ",
+  "arc.title":"ಬದುಕಿನ ಪಯಣದ ಕ್ಷಣಗಳು",
+  "arc.intro":"ಅವರ ಸ್ವವಿವರ ದಾಖಲೆಗಳಲ್ಲಿರುವ ಛಾಯಾಚಿತ್ರಗಳು. ದೊಡ್ಡದಾಗಿ ನೋಡಲು ಯಾವುದೇ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+  "arc.filterAria":"ಛಾಯಾಚಿತ್ರಗಳನ್ನು ವಿಂಗಡಿಸಿ",
+  "arc.fAll":"ಎಲ್ಲವೂ",
+  "arc.fLit":"ಸಾಹಿತ್ಯ ಬದುಕು",
+  "arc.fHon":"ಗೌರವಗಳು",
+  "arc.fCom":"ಸಂಸ್ಕೃತಿ ಮತ್ತು ಸಮಾಜ",
+  "arc.fSer":"ವೃತ್ತಿ ಸೇವೆ",
+
+  "g.nisar":"ನಾಡೋಜ ಪ್ರೊ. ಕೆ.ಎಸ್. ನಿಸಾರ್ ಅಹಮದ್ ಅವರೊಡನೆ","g.nisarAlt":"ಪ್ರೊ. ಕೆ.ಎಸ್. ನಿಸಾರ್ ಅಹಮದ್ ಅವರೊಡನೆ ಮುನಾಫ್",
+  "g.dodda":"ಪದ್ಮಶ್ರೀ ಡಾ. ದೊಡ್ಡರಂಗೇಗೌಡ ಅವರೊಡನೆ","g.doddaAlt":"ಡಾ. ದೊಡ್ಡರಂಗೇಗೌಡ ಅವರೊಡನೆ ಮುನಾಫ್",
+  "g.kambar":"ಡಾ. ಸಿದ್ಧಲಿಂಗಯ್ಯ ಮತ್ತು ಡಾ. ಚಂದ್ರಶೇಖರ ಕಂಬಾರ ಅವರೊಂದಿಗೆ","g.kambarAlt":"ಡಾ. ಸಿದ್ಧಲಿಂಗಯ್ಯ ಮತ್ತು ಡಾ. ಚಂದ್ರಶೇಖರ ಕಂಬಾರ ಅವರೊಂದಿಗೆ ಮುನಾಫ್",
+  "g.baraguru":"ಡಾ. ಬರಗೂರು ರಾಮಚಂದ್ರಪ್ಪ ಅವರೊಡನೆ","g.baraguruAlt":"ಡಾ. ಬರಗೂರು ರಾಮಚಂದ್ರಪ್ಪ ಅವರೊಡನೆ ಮುನಾಫ್",
+  "g.hampana":"ನಾಡೋಜ ಹಂ.ಪ.ನಾ ಮತ್ತು ಕಮಲಾ ಹಂಪನಾ ಅವರೊಡನೆ","g.hampanaAlt":"ಹಂ.ಪ.ನಾ ಮತ್ತು ಕಮಲಾ ಹಂಪನಾ ಅವರೊಡನೆ ಮುನಾಫ್",
+  "g.cnr":"ಖ್ಯಾತ ವಿಜ್ಞಾನಿ, ಭಾರತ ರತ್ನ ಡಾ. ಸಿ.ಎನ್.ಆರ್. ರಾವ್ ಅವರೊಡನೆ","g.cnrAlt":"ಡಾ. ಸಿ.ಎನ್.ಆರ್. ರಾವ್ ಅವರೊಡನೆ ಮುನಾಫ್",
+  "g.banu":"ಬುಕರ್ ಪ್ರಶಸ್ತಿ ಪುರಸ್ಕೃತೆ, ಖ್ಯಾತ ಲೇಖಕಿ ಬಾನು ಮುಷ್ತಾಕ್ ಅವರೊಡನೆ","g.banuAlt":"ಲೇಖಕಿ ಬಾನು ಮುಷ್ತಾಕ್ ಅವರೊಡನೆ ಮುನಾಫ್",
+  "g.girish":"ಖ್ಯಾತ ಸಿನಿಮಾ ನಿರ್ದೇಶಕ ಗಿರೀಶ್ ಕಾಸರವಳ್ಳಿ ಅವರೊಡನೆ","g.girishAlt":"ಗಿರೀಶ್ ಕಾಸರವಳ್ಳಿ ಅವರೊಡನೆ ಮುನಾಫ್",
+  "g.hamsa":"ಖ್ಯಾತ ಸಂಗೀತ ನಿರ್ದೇಶಕ ಹಂಸಲೇಖ ಅವರೊಂದಿಗೆ","g.hamsaAlt":"ಹಂಸಲೇಖ ಅವರೊಂದಿಗೆ ಮುನಾಫ್",
+  "g.release":"ಖ್ಯಾತ ಸಾಹಿತಿ ಎಂ.ಎನ್. ವ್ಯಾಸರಾವ್ ಅವರಿಂದ ‘ಭಾವಬನದ ಕುಸುಮ’ ಕೃತಿ ಬಿಡುಗಡೆ","g.releaseAlt":"ಭಾವಬನದ ಕುಸುಮ ಬಿಡುಗಡೆ ಸಮಾರಂಭದಲ್ಲಿ ಪುಸ್ತಕ ಹಿಡಿದ ಅತಿಥಿಗಳು",
+  "g.chandana":"ಕನ್ನಡ ದೂರದರ್ಶನ ಚಂದನ ವಾಹಿನಿಯಲ್ಲಿ ಸಂದರ್ಶನ","g.chandanaAlt":"ದೂರದರ್ಶನ ಸ್ಟುಡಿಯೋದಲ್ಲಿ ಸಂದರ್ಶನ ನೀಡುತ್ತಿರುವ ಮುನಾಫ್",
+  "g.theatre":"‘ಶ್ರೀಕೃಷ್ಣ ಸಂಧಾನ’ ನಾಟಕದಲ್ಲಿ ಅರ್ಜುನನ ಪಾತ್ರಧಾರಿಯಾಗಿ","g.theatreAlt":"ರಂಗವೇದಿಕೆಯ ಮೇಲೆ ವೇಷಧಾರಿ ಕಲಾವಿದರು",
+  "g.kempegowda":"ಮಹಾಪೌರ ಶ್ರೀ ಸಂಪತ್‌ರಾಜ್ ಮತ್ತು ಉಪಮುಖ್ಯಮಂತ್ರಿ ಡಾ. ಜಿ. ಪರಮೇಶ್ವರ್ ಅವರಿಂದ ನಾಡಪ್ರಭು ಕೆಂಪೇಗೌಡ ಪ್ರಶಸ್ತಿ ಸ್ವೀಕಾರ",
+  "g.beml":"ಮಾಜಿ ಪ್ರಧಾನಮಂತ್ರಿ ಶ್ರೀ ಹೆಚ್.ಡಿ. ದೇವೇಗೌಡ ಅವರಿಂದ ಬಿಇಎಂಎಲ್ ಜೀವಮಾನ ಸಾಧನೆ ಪ್ರಶಸ್ತಿ ಸ್ವೀಕಾರ",
+  "g.chavunda":"ಬೆಂಗಳೂರು ಜಿಲ್ಲಾ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತಿನ ಚಾವುಂಡರಾಯ ಪ್ರಶಸ್ತಿ",
+  "g.ranna":"ಮೇಘಮೈತ್ರಿ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಘದ ಕವಿಚಕ್ರವರ್ತಿ ಮಹಾಕವಿ ರನ್ನ ಪ್ರಶಸ್ತಿ",
+  "g.sidda":"ದಲಿತ ಕವಿ ಡಾ. ಸಿದ್ಧಲಿಂಗಯ್ಯ ಅವರಿಂದ ಗೌರವ ಸನ್ಮಾನ","g.siddaAlt":"ವೇದಿಕೆಯಲ್ಲಿ ಗೌರವ ಸನ್ಮಾನ ಸ್ವೀಕರಿಸುತ್ತಿರುವ ಮುನಾಫ್",
+  "g.collection":"ಅವರಿಗೆ ಸಂದ ಪ್ರಶಸ್ತಿ ಮತ್ತು ಸನ್ಮಾನಗಳು","g.collectionAlt":"ಫಲಕಗಳು, ಸ್ಮರಣಿಕೆಗಳು ಮತ್ತು ಸನ್ಮಾನ ಪತ್ರಗಳಿಂದ ತುಂಬಿದ ಕಪಾಟುಗಳು",
+  "g.procession":"ಸರ್ ಸಿ.ವಿ. ರಾಮನ್ ನಗರ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನದ ಬೃಹತ್ ಮೆರವಣಿಗೆ","g.processionAlt":"ರಸ್ತೆಯಲ್ಲಿ ಡೊಳ್ಳು ಕಲಾವಿದರೊಂದಿಗೆ ಸಾಗುತ್ತಿರುವ ಸಮ್ಮೇಳನದ ಮೆರವಣಿಗೆ",
+  "g.dollu":"ಡೊಳ್ಳು ಬಾರಿಸುವ ಮೂಲಕ ಸಮ್ಮೇಳನದ ಉದ್ಘಾಟನೆ","g.dolluAlt":"ಡೊಳ್ಳು ಬಾರಿಸಿ ಸಮ್ಮೇಳನ ಉದ್ಘಾಟಿಸುತ್ತಿರುವ ಅತಿಥಿಗಳು",
+  "g.address":"ಘಟಕದ ಅಧ್ಯಕ್ಷರಾಗಿ ಮುನಾಫ್ ಅವರಿಂದ ಸಮ್ಮೇಳನದ ಆಹ್ವಾನ ನುಡಿ","g.addressAlt":"ಸಮ್ಮೇಳನ ವೇದಿಕೆಯಲ್ಲಿ ಮಾತನಾಡುತ್ತಿರುವ ಮುನಾಫ್",
+  "g.raj":"ವರನಟ ಡಾ. ರಾಜಕುಮಾರ್ ಜಯಂತಿ ಮತ್ತು ಪುತ್ಥಳಿ ಅನಾವರಣ","g.rajAlt":"ಡಾ. ರಾಜಕುಮಾರ್ ಅವರ ಭಾವಚಿತ್ರಕ್ಕೆ ಮಾಲಾರ್ಪಣೆ",
+  "g.library":"ಹೊಸ ತಿಪ್ಪಸಂದ್ರದಲ್ಲಿ ನೂತನ ಗ್ರಂಥಾಲಯ ಲೋಕಾರ್ಪಣೆ","g.libraryAlt":"ಗ್ರಂಥಾಲಯ ಉದ್ಘಾಟನೆಯಲ್ಲಿ ಪುಸ್ತಕಗಳ ಮೇಜಿನ ಬಳಿ ಮುನಾಫ್ ಮತ್ತು ಇತರರು",
+  "g.dharna":"ಸರೋಜಿನಿ ಮಹಿಷಿ ವರದಿ ಅನುಷ್ಠಾನಕ್ಕೆ ಒತ್ತಾಯಿಸಿ ಧರಣಿ","g.dharnaAlt":"ಫಲಕಗಳೊಂದಿಗೆ ಧರಣಿಯಲ್ಲಿ ಕುಳಿತ ಭಾಗವಹಿಸುವವರು",
+  "g.env":"ಪರಿಸರ ಸಂರಕ್ಷಣಾ ಅಭಿಯಾನ","g.envAlt":"ಉದ್ಯಾನದಲ್ಲಿ ಫಲಕಗಳನ್ನು ಹಿಡಿದ ಅಭಿಯಾನದ ಭಾಗವಹಿಸುವವರು",
+  "g.covid":"ಕೊರೋನಾ ಮಹಾಮಾರಿ ಸಂದರ್ಭದಲ್ಲಿ ಆಹಾರ ವಿತರಣೆ","g.covidAlt":"ದೊಡ್ಡ ಪಾತ್ರೆಗಳಿಂದ ಆಹಾರ ಬಡಿಸುತ್ತಿರುವ ಮುಖಗವಸುಧಾರಿ ಸ್ವಯಂಸೇವಕರು",
+  "g.tawangT":"ಅರುಣಾಚಲ ಪ್ರದೇಶದ ತವಾಂಗ್‌ನಲ್ಲಿ ಬಿಇಎಂಎಲ್ ಟಟ್ರಾ ಟ್ರಕ್‌ನ ಗುಣಮಟ್ಟ ಪರೀಕ್ಷೆ","g.tawangTAlt":"ಹಿಮಭರಿತ ಪರ್ವತ ರಸ್ತೆಯಲ್ಲಿ ಟಟ್ರಾ ಟ್ರಕ್",
+  "g.tawangS":"ತವಾಂಗ್ ಸೇನಾ ನೆಲೆಯ ಯೋಧರೊಂದಿಗೆ","g.tawangSAlt":"ಹಿಮದಲ್ಲಿ ಯೋಧರ ತಂಡದೊಂದಿಗೆ ಮುನಾಫ್",
+  "g.kargilR":"ಕಾರ್ಗಿಲ್ ಪ್ರದೇಶದ ದುರ್ಗಮ ಕಣಿವೆ ರಸ್ತೆಯಲ್ಲಿ ಟಟ್ರಾ ವಾಹನದ ಸಾಮರ್ಥ್ಯ ಪರೀಕ್ಷೆ","g.kargilRAlt":"ಕಲ್ಲಿನ ಪರ್ವತ ರಸ್ತೆಯಲ್ಲಿ ಟಟ್ರಾ ಟ್ರಕ್‌ನ ಚಾಲಕ ಕೋಣೆಯಲ್ಲಿ ಮುನಾಫ್",
+  "g.kargilS":"ಕಾರ್ಗಿಲ್ ಸೇನಾ ನೆಲೆಯಲ್ಲಿ ಟಟ್ರಾ ಪರೀಕ್ಷೆಯ ವೇಳೆ ಭಾರತೀಯ ಯೋಧರೊಂದಿಗೆ","g.kargilSAlt":"ಟಟ್ರಾ ಟ್ರಕ್ ಮುಂದೆ ಯೋಧರೊಂದಿಗೆ ಮುನಾಫ್",
+  "g.khardung":"ಖಾರ್ದುಂಗ್‌ಲಾದಲ್ಲಿ (18,380 ಅಡಿ) ಯೋಧರ ತಾಂತ್ರಿಕ ತರಬೇತಿ ಶಿಬಿರದ ವೇಳೆ","g.khardungAlt":"ಖಾರ್ದುಂಗ್‌ಲಾ ನಾಮಫಲಕದ ಬಳಿ ಹಿಮದಲ್ಲಿ ಮುನಾಫ್",
+  "g.pullu":"ಸೌತ್ ಪುಲ್ಲು (15,300 ಅಡಿ) ಪ್ರದೇಶದಲ್ಲಿ ಸೇನಾ ಸಿಬ್ಬಂದಿಯ ತರಬೇತಿ ಶಿಬಿರ","g.pulluAlt":"ಎತ್ತರದ ಶಿಬಿರದಲ್ಲಿ ಯೋಧರೊಂದಿಗೆ ಮುನಾಫ್",
+  "g.jodhpur":"ಜೋಧ್‌ಪುರ ಮರುಭೂಮಿಯಲ್ಲಿ ಟಟ್ರಾ ಪರೀಕ್ಷೆ ಮತ್ತು ಯೋಧರ ತರಬೇತಿ ಶಿಬಿರದಲ್ಲಿ","g.jodhpurAlt":"ಮರುಭೂಮಿಯಲ್ಲಿ ಸೇನಾ ವಾಹನಗಳ ಬಳಿ ಯೋಧರೊಂದಿಗೆ ಮುನಾಫ್",
+  "g.pokhran":"ಜೈಸಲ್ಮೇರ್ ಜಿಲ್ಲೆಯ ಪೋಖ್ರಾನ್ ಸೇನಾ ಶಿಬಿರದಲ್ಲಿ","g.pokhranAlt":"ಮರುಭೂಮಿಯಲ್ಲಿ ದೊಡ್ಡ ಸೇನಾ ವಾಹನದ ಮುಂದೆ ನಿಂತಿರುವ ಮುನಾಫ್",
+  "g.desert":"ರಾಜಸ್ಥಾನದ ಮರುಭೂಮಿ ಸೇನಾ ನೆಲೆಯಲ್ಲಿ ಬೋಫೋರ್ಸ್ ಫಿರಂಗಿಯೊಡನೆ","g.desertAlt":"ಮರುಭೂಮಿಯಲ್ಲಿ ಬೋಫೋರ್ಸ್ ಫಿರಂಗಿಯ ಬಳಿ ನಿಂತಿರುವ ಮುನಾಫ್",
+
+  "contact.eyebrow":"ಸಂಪರ್ಕ",
+  "contact.title":"ಪತ್ರ ವ್ಯವಹಾರಕ್ಕಾಗಿ",
+  "contact.text":"ಸಾಹಿತ್ಯ ಕಾರ್ಯಕ್ರಮಗಳು, ಆಹ್ವಾನಗಳು ಅಥವಾ ಪತ್ರ ವ್ಯವಹಾರಕ್ಕಾಗಿ ಮುಹಮ್ಮದ್ ಮುನಾಫ್ ಅವರನ್ನು ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸಬಹುದು.",
+  "contact.emailL":"ಇಮೇಲ್",
+  "contact.phoneL":"ದೂರವಾಣಿ",
+  "contact.cityL":"ನಗರ",
+
+  "footer.desc":"ಕನ್ನಡ ಕವಿ ಮತ್ತು ಲೇಖಕ · ದೇಶದ ರಕ್ಷಣಾ ಕ್ಷೇತ್ರದಲ್ಲಿ ಬಿಇಎಂಎಲ್ ಮೂಲಕ 34 ವರ್ಷಗಳ ಸೇವೆ",
+  "footer.ka":"ಕನ್ನಡ · ಕರ್ನಾಟಕ",
+  "footer.navAria":"ಅಡಿಟಿಪ್ಪಣಿ ಸಂಚಾರ",
+  "footer.source":"ಮುಹಮ್ಮದ್ ಮುನಾಫ್ ಅವರ ಸ್ವವಿವರ ದಾಖಲೆಗಳನ್ನು ಆಧರಿಸಿದ ಮಾಹಿತಿ.",
+  "footer.top":"ಮೇಲಕ್ಕೆ",
+  "lb.aria":"ಛಾಯಾಚಿತ್ರ ವೀಕ್ಷಕ",
+  "lb.prev":"ಹಿಂದಿನ ಚಿತ್ರ",
+  "lb.next":"ಮುಂದಿನ ಚಿತ್ರ",
+  "lb.close":"ಮುಚ್ಚಿ"
+};
+
+/* Extra English strings that exist only in JS (not in the HTML) */
+const EN_EXTRA = { "menu.open":"Open menu", "menu.close":"Close menu" };
+
+(function(){
+  "use strict";
+  const doc = document.documentElement;
+  const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- Safe storage ---------- */
+  const store = {
+    get(k){ try { return window.localStorage.getItem(k); } catch(e){ return null; } },
+    set(k,v){ try { window.localStorage.setItem(k,v); } catch(e){} }
+  };
+
+  /* ---------- Capture English originals ---------- */
+  const textEls = Array.from(document.querySelectorAll("[data-i18n]"));
+  textEls.forEach(el => { el.__en = el.innerHTML; el.__enLang = el.getAttribute("lang"); });
+  const attrEls = Array.from(document.querySelectorAll("[data-i18n-attr]"));
+  attrEls.forEach(el => {
+    el.__attrs = el.getAttribute("data-i18n-attr").split(";").map(pair => {
+      const [attr, key] = pair.split(":");
+      return { attr: attr.trim(), key: key.trim(), en: el.getAttribute(attr.trim()) };
+    });
+  });
+
+  let lang = "en";
+  const t = (key) => (lang === "kn" ? KN[key] : EN_EXTRA[key]);
+
+  function applyLanguage(next){
+    lang = next;
+    doc.setAttribute("lang", next);
+    textEls.forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      if (next === "kn" && KN[key] !== undefined) {
+        el.innerHTML = KN[key];
+        // Elements that are Kannada by default (e.g. the alternate-script name) flip to English
+        if (el.hasAttribute("data-lang-flip")) el.setAttribute("lang", "en"); else el.removeAttribute("lang");
+      } else {
+        el.innerHTML = el.__en;
+        if (el.__enLang) el.setAttribute("lang", el.__enLang); else el.removeAttribute("lang");
+      }
+    });
+    attrEls.forEach(el => el.__attrs.forEach(a => {
+      const v = (next === "kn" && KN[a.key] !== undefined) ? KN[a.key] : a.en;
+      if (v !== null) el.setAttribute(a.attr, v);
+    }));
+    const sw = document.getElementById("lang-switch");
+    sw.setAttribute("aria-checked", next === "kn" ? "true" : "false");
+    document.title = next === "kn" ? "ಮುಹಮ್ಮದ್ ಮುನಾಫ್ — ಕನ್ನಡ ಕವಿ ಮತ್ತು ಲೇಖಕ" : "Muhammad Munaf — Kannada Poet & Author";
+    updateMenuLabel();
+    store.set("munaf-lang", next);
+  }
+
+  /* Switch language while keeping the reader at the same place */
+  function switchLanguage(next){
+    if (next === lang) return;
+    const sections = Array.from(document.querySelectorAll("main section"));
+    let anchor = sections[0], offset = 0;
+    for (const s of sections) {
+      const r = s.getBoundingClientRect();
+      if (r.bottom > 80) { anchor = s; offset = r.top; break; }
+    }
+    const main = document.getElementById("main");
+    const run = () => {
+      applyLanguage(next);
+      const top = anchor.getBoundingClientRect().top;
+      window.scrollTo({ top: window.scrollY + (top - offset), behavior: "auto" });
+      main.classList.remove("switching");
+    };
+    if (reduceMotion) { run(); }
+    else { main.classList.add("switching"); setTimeout(run, 140); }
+  }
+
+  document.getElementById("lang-switch").addEventListener("click", () => {
+    switchLanguage(lang === "kn" ? "en" : "kn");
+  });
+
+  /* ---------- Mobile menu ---------- */
+  const menuBtn = document.getElementById("menu-btn");
+  const nav = document.getElementById("site-nav");
+  function updateMenuLabel(){
+    const open = menuBtn.getAttribute("aria-expanded") === "true";
+    menuBtn.setAttribute("aria-label", t(open ? "menu.close" : "menu.open") || (open ? "Close menu" : "Open menu"));
+  }
+  function setMenu(open){
+    menuBtn.setAttribute("aria-expanded", String(open));
+    nav.classList.toggle("open", open);
+    updateMenuLabel();
+  }
+  menuBtn.addEventListener("click", () => setMenu(menuBtn.getAttribute("aria-expanded") !== "true"));
+  nav.addEventListener("click", e => { if (e.target.closest("a")) setMenu(false); });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && nav.classList.contains("open")) { setMenu(false); menuBtn.focus(); }
+  });
+
+  /* ---------- Header state + active nav link ---------- */
+  const header = document.querySelector(".site-header");
+  const onScroll = () => header.classList.toggle("scrolled", window.scrollY > 8);
+  window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
+
+  if ("IntersectionObserver" in window) {
+    const links = Array.from(document.querySelectorAll('.nav a[href^="#"]'));
+    const spy = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting) {
+          links.forEach(a => a.toggleAttribute("aria-current", a.getAttribute("href") === "#" + en.target.id));
+          links.forEach(a => { if (a.hasAttribute("aria-current")) a.setAttribute("aria-current", "true"); });
+        }
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    document.querySelectorAll("main section[id]").forEach(s => spy.observe(s));
+  }
+
+  /* ---------- Reveal on scroll (opt-in, with failsafe) ---------- */
+  if (!reduceMotion && "IntersectionObserver" in window) {
+    doc.classList.add("js-motion");
+    const items = document.querySelectorAll(".reveal, .img-reveal");
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 });
+    items.forEach(el => io.observe(el));
+    // Never leave content hidden: reveal anything still pending after a short while.
+    setTimeout(() => items.forEach(el => el.classList.add("in")), 3500);
+    window.addEventListener("hashchange", () => items.forEach(el => el.classList.add("in")));
+  }
+
+  /* ---------- Gallery filters ---------- */
+  const filterBtns = Array.from(document.querySelectorAll(".filters button"));
+  const figures = Array.from(document.querySelectorAll("#gallery figure"));
+  filterBtns.forEach(btn => btn.addEventListener("click", () => {
+    const f = btn.dataset.filter;
+    filterBtns.forEach(b => b.setAttribute("aria-pressed", String(b === btn)));
+    figures.forEach(fig => { fig.hidden = !(f === "all" || fig.dataset.cat === f); });
+  }));
+
+  /* ---------- Lightbox ---------- */
+  const dlg = document.getElementById("lightbox");
+  const lbImg = document.getElementById("lb-img");
+  const lbCap = document.getElementById("lb-cap");
+  let current = 0, opener = null;
+  const visible = () => figures.filter(f => !f.hidden);
+  function show(i){
+    const list = visible(); if (!list.length) return;
+    current = (i + list.length) % list.length;
+    const fig = list[current], img = fig.querySelector("img");
+    lbImg.src = img.currentSrc || img.src;
+    lbImg.alt = img.alt;
+    lbCap.textContent = fig.querySelector("figcaption").textContent;
+  }
+  if (typeof dlg.showModal === "function") {
+    figures.forEach(fig => fig.querySelector(".g-btn").addEventListener("click", e => {
+      opener = e.currentTarget;
+      show(visible().indexOf(fig));
+      dlg.showModal();
+      document.getElementById("lb-close").focus();
+    }));
+    document.getElementById("lb-prev").addEventListener("click", () => show(current - 1));
+    document.getElementById("lb-next").addEventListener("click", () => show(current + 1));
+    document.getElementById("lb-close").addEventListener("click", () => dlg.close());
+    dlg.addEventListener("keydown", e => {
+      if (e.key === "ArrowLeft") show(current - 1);
+      if (e.key === "ArrowRight") show(current + 1);
+    });
+    dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener("close", () => { lbImg.src = ""; if (opener) opener.focus(); });
+  } else {
+    // Very old browsers: images simply stay inline; disable the zoom affordance.
+    document.querySelectorAll(".g-btn").forEach(b => { b.style.cursor = "default"; b.setAttribute("tabindex", "-1"); });
+  }
+
+  /* ---------- Initial language ---------- */
+  const saved = store.get("munaf-lang");
+  if (saved === "kn") applyLanguage("kn");
+  else updateMenuLabel();
+})();
+</script>
+</body>
+</html>
